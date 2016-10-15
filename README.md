@@ -17,42 +17,42 @@ University of Rochester 1997
 ## Experience
 
 ### Principal, Critical Infrastructure Security
-> Electric Reliability Council of Texas (ERCOT)
+> *Electric Reliability Council of Texas (ERCOT)*
 
 > November, 2012 - Present
 
 ### Manager, Critical Infrastructure Security
-> Electric Reliability Council of Texas (ERCOT)
+> *Electric Reliability Council of Texas (ERCOT)*
 
 > December 2009 - November 2012
 
 ### Lead, Security Operations
-> Electric Reliability Council of Texas (ERCOT)
+> *Electric Reliability Council of Texas (ERCOT)*
 
 > December 2005 – December 2009
 
 ### Security Consultant
-> Unisys
+> *Unisys*
 
 > March 2003 - December 2005
 
 ### Senior Staff, Security Engineering
-> Zurich Global Assets
+> *Zurich Global Assets*
 
 > June 2002 – February 2003
 
 ### Technical Services Director
-> ThruPoint
+> *ThruPoint*
 
 > October 1999 – June 2002
 
 ### Security Consultant
-> Securities Industry Automation Corporation (SIAC)
+> *Securities Industry Automation Corporation (SIAC)*
 
 > October 1998 – September 1999
 
 ### Security Consultant
-> Interactive Futures
+> *Interactive Futures*
 
 > May 1997 – September 1998
 
