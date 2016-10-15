@@ -3,7 +3,7 @@
 | contact | info |
 |------|------------|
 | mail | [`recruit@breed.org`](mailto:recruit@REMOVETHIS.breed.org) |
-| voice |  [`+1 (661) R-BREED-1`](tel://+1-661-R-BREED-1) |
+| voice |  [`+1 (661) R-BREED-1`](tel:+1-661-R-BREED-1) |
 | github | [@ryanbreed](https://github.com/ryanbreed/) |
 
 ## Overview
