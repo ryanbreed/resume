@@ -151,9 +151,26 @@ Major Accomplishments:
 * Supported pre-sales discovery and developed written responses to RFP solicitations.
 
 ## Certifications
+* Completion of Advanced Training - Mercedes AMG Driving Academy
+* Leadership Skills for Managers Certificate Program - University of Texas at Austin Professional Development Center
+* Advanced SCADA Security - Idaho National Laboratory National SCADA Test Bed
+* Certified SCADA Security Architect - Digital Bond, Inc.
+
+## Courses
+* Microsoft Windows Security (SANS-505)
+* Reverse-engineering Malware (SANS-610)
+* PowerShell (SANS-537)
+* Identifying and Removing Malware (SANS-537)
+* ArcSight ESM 6.5 Security Administrator and Analyst (HPE-00924200)
 
 ## Awards
-
-## Projects
+* Team Player Award - ERCOT March 2016
+* 1st place Team Autocross - Mercedes AMG Driving Academy June 2015
+* Core Value Award for Expertise - ERCOT April 2014
+* Team Player Award - ERCOT April 2014
+* Exceptional Performer Award - ERCOT January 2014
+* Certificate of Recognition: Principal, Critical Infrastructure Security - ERCOT December 2012
+* Team Player Award - ERCOT July 2011
+* Team Captain and Winning Team - Idaho National Laboratory NSTB Advanced SCADA Security Training November 2008
 
 ## Skills
