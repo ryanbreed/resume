@@ -190,4 +190,4 @@ Major Accomplishments:
 * *Analysis/Visualization*: Jupyter, Rstudio, Apache Spark, Tableau, Pig, pandas, scikit-learn, shiny, grafana, kibana
 * *Compliance*: NERC CIP, SSAE16, NIST SP800-53, NIST CyberSecurity Framework
 * *OS*: CentOS/RHEL 5-7, Windows Server 2008/2012, macOS, OpenBSD, FreeBSD
-* *Network*: Cisco IOS, Arista EOS, openvswitch
+* *Network*: Cisco IOS, Arista EOS, openvswitch, ISC BIND, AWS Route53, InfoBlox DDI, wireshark
