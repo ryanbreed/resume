@@ -174,3 +174,20 @@ Major Accomplishments:
 * Team Captain and Winning Team - Idaho National Laboratory NSTB Advanced SCADA Security Training November 2008
 
 ## Skills
+* *Security*: ArcSight ESM/Logger, Bro IDS, McAfee Network Security Platform, Suricata IDS, RSA Security Analytics/Netwitness, Carbon Black Protection (Bit9 Parity), AppLocker, SILK, Netflow, Gigamon
+* *DF/IR*: Volatility Framework, plaso/log2timeline, EnCase, F-Response, Carbon Black Response, Soltra Edge, STIX/CybOx/TAXII/OpenIOC, Cuckoo Sandbox, McAfee Advanced Threat Detection
+* *Vulnerability Management*: Rapid7 Nexpose, RedSeal, Tenable SecurityCenter, MetaSploit Pro, PhishMe, OpenSCAP, SCAP/OVAL/XCCDF, Scumblr
+* *Crypto/Secret Management* HashiCorip Vault, Microsoft Certificate Services, cfssl, OpenSSL, PKCS11, TPM
+* *Automation/Management*: packer, Chef, Ansible, Consul, ActiveDirectory Group Policy, Apache ZooKeeper
+* *Data Repositories*: MySQL/MariaDB, PostgreSQL, Cassandra, ElasticSearch, InfluxDB, OSISoft PI System
+* *ETL/Pipeline*: Apache Kafka, RabbitMQ, Logstash, Pentaho Data Integration, Flume, Sqoop, Avro, Parquet
+* *Monitoring/Metrics*: Telegraf, Kapacitor, Zabbix, Nagios, CollectD, DiamonD, StatsD, Graphite, jolokia, jmxtrans
+* *Web*: Apache HTTPD, nginx, varnish cache, squid, haproxy, traefik
+* *Virtualization*: VMWare ESX, Docker, QEMU, KVM, OpenStack, Vagrant, AWS EC2
+* *Storage*: ceph, minio, OpenStack Swift, AWS S3
+* *Languages*: Ruby, Python, R, Shell/Bash, PowerShell, Go/golang, Scala, JavaScript
+* *Testing/Integration/Deployment*: Jenkins, TravisCI, Bamboo, Omnibus, Capistrano, rspec, serverspec, RPM, brakeman
+* *Analysis/Visualization*: Jupyter, Rstudio, Apache Spark, Tableau, Pig, pandas, scikit-learn, shiny, grafana, kibana
+* *Compliance*: NERC CIP, SSAE16, NIST SP800-53, NIST CyberSecurity Framework
+* *OS*: CentOS/RHEL 5-7, Windows Server 2008/2012, macOS, OpenBSD, FreeBSD
+* *Network*: Cisco IOS, Arista EOS, openvswitch
