@@ -1,10 +1,11 @@
 # Ryan Breed
 
-| contact | info |
+| Contact | Info |
 |------|------------|
 | mail | [`recruit@breed.org`](mailto:recruit@REMOVETHIS.breed.org) |
 | voice |  [`+1 (661) R-BREED-1`](tel:+1-661-R-BREED-1) |
-| github | [@ryanbreed](https://github.com/ryanbreed/) |
+| github | `github.com/ryanbreed` |
+| linkedin | `linkedin.com/in/ryanbreed` |
 
 ## Overview
 
@@ -15,17 +16,21 @@ to cyber attacks and other major disturbances. I also have practical experience 
 sharing and organizing collective security initiatives through cooperative information sharing with public and private
 sector entities.
 
-#### Education
-##### Global Policy Studies - On Hiatus
-The University of Texas at Austin - The LBJ School of Public Affairs (2012 – 2014)
-##### Bachelor of Science (B.S.), Molecular Genetics
+## Education
+### Global Policy Studies - On Hiatus
+University of Texas at Austin LBJ School of Public Affairs (2012–2014)
+
+### Bachelor of Science in Molecular Genetics
 University of Rochester 1997
+
+
+
+
+
 
 ## Experience
 ### Principal, Critical Infrastructure Security
-> *Electric Reliability Council of Texas (ERCOT)*
-
-> November, 2012 - Present
+> *Electric Reliability Council of Texas (ERCOT)* Nov 2012 - Oct 2016
 
 Individual contributor responsible for engaging business units to develop strategic opportunities for improving grid and market systems while delivering on key security initiatives.
 
@@ -49,13 +54,11 @@ Individual contributor responsible for engaging business units to develop strate
 * Developed Big Data test bed - deployed DataStax Enterprise Cassandra, Hortonworks Hadoop, Apache Spark, GraphLab, Neo4j, and JupyterHub environments loaded with data from IT, market, and grid systems. Developed proof-of-concept analyses showcasing each technology platform for evaluation by business and IT owners.
 
 ### Manager, Critical Infrastructure Security
-> *Electric Reliability Council of Texas (ERCOT)*
-
-> December 2009 - November 2012
+> *Electric Reliability Council of Texas (ERCOT)* Dec 2009 - Nov 2012
 
 Managed a team of 9 security analysts to cover security operations, monitoring, incident response, compliance controls, and security architecture.
 
-#### Key Responsibilities
+##### Key Responsibilities
 * Managed departmental budget, including annual and quarterly forecasting. Developed and presented project proposals for cyber security initiatives.
 * Provided guidance and oversight in the capital project process to ensure security objectives were incorporated into investment initiatives.
 * Lead audit response efforts for cyber security control activities in NERC CIP and SAS70 compliance programs.
@@ -67,16 +70,14 @@ Managed a team of 9 security analysts to cover security operations, monitoring, 
 * Lead participation in public/private partnership projects with DOE and DHS.
 * Attained SECRET clearance under DHS Private Sector Clearance Program and attended threat briefings as necessary.
 
-#### Major Accomplishments
+##### Major Accomplishments
 * Led implementation of DOE ESNM/CRISP pilot site and participated in program development workshops.
 * Developed automated security advisory analysis system to triage, score, and dispatch vendor advisories and vulnerability notifications.
 * Represented Cybersecurity Department in GridEx II Exercise Play.
 * Represented Electricity Subsector in classified threat workshops for IC at DOE INL.
 
 ### Lead, Security Operations
-> *Electric Reliability Council of Texas (ERCOT)*
-
-> December 2005 – December 2009
+> *Electric Reliability Council of Texas (ERCOT)*  Dec 2005 – Dec 2009
 
 Performed security monitoring, incident response, and investigations.
 
@@ -95,9 +96,7 @@ Performed security monitoring, incident response, and investigations.
 * Developed management application for BlueCoat site categorization via local policy database.
 
 ### Security Consultant
-> *Unisys*
-
-> March 2003 - December 2005
+> *Unisys* Mar 2003 - Dec 2005
 
 * Performed security assessments, penetration tests, and risk assessments for clients in the Financial Services, Health Care, Manufacturing, and Public sectors.
 * Wrote and presented post-engagement reports to clients and provided guidance for addressing findings in line with business objectives.
@@ -106,9 +105,7 @@ Performed security monitoring, incident response, and investigations.
 * Directed team activities for large assessments and security infrastructure implementation projects.
 
 ### Senior Staff, Security Engineering
-> *Zurich Global Assets*
-
-> June 2002 – February 2003
+> *Zurich Global Assets* Jun 2002 – Feb 2003
 
 * Developed Security and Network Operations Center for ZGA infrastructure.
 * Acted as ZGA divisional representative at Zurich Financial Services Global Information Technology Services activities.
@@ -119,9 +116,7 @@ Performed security monitoring, incident response, and investigations.
 * Lead the global PKI implementation team.
 
 ### Technical Services Director
-> *ThruPoint*
-
-> October 1999 – June 2002
+> *ThruPoint* Oct 1999 – Jun 2002
 
 * Performed security assessment, penetration test, infrastructure design, and infrastructure implementation projects for clients in Financial Services and Media sectors.
 * Served as final internal point of escalation for all security consulting technical matters across the company.
@@ -130,9 +125,7 @@ Performed security monitoring, incident response, and investigations.
 * Provided staff skills development assistance for other security consultants.
 
 ### Security Consultant
-> *Securities Industry Automation Corporation (SIAC)*
-
-> October 1998 – September 1999
+> *Securities Industry Automation Corporation (SIAC)* Oct 1998 – Sep 1999
 
 * Did first shift firewall operations for Gauntlet firewalls on the internal perimeter networks.
 * Performed start-of-day and end-of-day procedures to ensure continuity of operations for second and third shifts.
@@ -141,9 +134,7 @@ Performed security monitoring, incident response, and investigations.
 * Participated in Y2K readiness preparations for NYSE security infrastructure.
 
 ### Security Consultant
-> *Interactive Futures*
-
-> May 1997 – September 1998
+> *Interactive Futures* May 1997 – Sep 1998
 
 * Performed security assessments for clients in the Media, Legal, and non-profit sector
 * Designed and implemented CheckPoint and Gauntlet firewalls for VAR customers.
