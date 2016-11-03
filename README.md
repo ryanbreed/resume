@@ -17,16 +17,9 @@ sharing and organizing collective security initiatives through cooperative infor
 sector entities.
 
 ## Education
-### Global Policy Studies - On Hiatus
-University of Texas at Austin LBJ School of Public Affairs (2012–2014)
+University of Texas at Austin LBJ School of Public Affairs - Global Policy Studies (2012–2014)
 
-### Bachelor of Science in Molecular Genetics
-University of Rochester 1997
-
-
-
-
-
+University of Rochester - Bachelor of Science in Molecular Genetics 1997
 
 ## Experience
 ### Principal, Critical Infrastructure Security
@@ -170,15 +163,16 @@ Performed security monitoring, incident response, and investigations.
 * *Vulnerability Management*: Rapid7 Nexpose, RedSeal, Tenable SecurityCenter, MetaSploit Pro, PhishMe, OpenSCAP, SCAP/OVAL/XCCDF, Scumblr
 * *Crypto/Secret Management* HashiCorip Vault, Microsoft Certificate Services, cfssl, OpenSSL, PKCS11, TPM
 * *Automation/Management*: packer, Chef, Ansible, Consul, ActiveDirectory Group Policy, Apache ZooKeeper
+* *Languages*: Ruby, Python, R, Shell/Bash, PowerShell, Go/golang, Scala, JavaScript
+* *Workflow*: JIRA, SharePoint, Confluence, HipChat, rundeck, Stash, Bitbucket, git
+* *Testing*: jenkins, TravisCI, Bamboo, selenium, cucumber, rspec, serverspec, brakeman, rubocop, capybara
 * *Data Repositories*: MySQL/MariaDB, PostgreSQL, Cassandra, ElasticSearch, InfluxDB, OSISoft PI System
 * *ETL/Pipeline*: Apache Kafka, RabbitMQ, Logstash, Pentaho Data Integration, Flume, Sqoop, Avro, Parquet
 * *Monitoring/Metrics*: Telegraf, Kapacitor, Zabbix, Nagios, CollectD, DiamonD, StatsD, Graphite, jolokia, jmxtrans
 * *Web*: Apache HTTPD, nginx, varnish cache, squid, haproxy, traefik
 * *Virtualization*: VMWare ESX, Docker, QEMU, KVM, OpenStack, Vagrant, AWS EC2
-* *Storage*: ceph, minio, OpenStack Swift, AWS S3
-* *Languages*: Ruby, Python, R, Shell/Bash, PowerShell, Go/golang, Scala, JavaScript
-* *Testing/Integration/Deployment*: Jenkins, TravisCI, Bamboo, Omnibus, Capistrano, rspec, serverspec, RPM, brakeman
 * *Analysis/Visualization*: Jupyter, Rstudio, Apache Spark, Tableau, Pig, pandas, scikit-learn, shiny, grafana, kibana
 * *Compliance*: NERC CIP, SSAE16, NIST SP800-53, NIST CyberSecurity Framework
 * *OS*: CentOS/RHEL 5-7, Windows Server 2008/2012, macOS, OpenBSD, FreeBSD
 * *Network*: Cisco IOS, Arista EOS, openvswitch, ISC BIND, AWS Route53, InfoBlox DDI, wireshark
+* *Storage*: ceph, minio, OpenStack Swift, AWS S3
