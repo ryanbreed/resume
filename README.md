@@ -9,17 +9,11 @@
 
 ## Overview
 
-Seasoned security professional with 19 years of deep technical experience in security assessment, penetration testing,
-security monitoring, incident response, application security, and security architecture. I have a keen interest in
-practical applications of large-scale data analysis and infrastructure automation to increase organizational resilience
-to cyber attacks and other major disturbances. I also have practical experience automating Cyber Threat Intelligence
-sharing and organizing collective security initiatives through cooperative information sharing with public and private
-sector entities.
+Seasoned security professional with 19 years of deep technical experience in security assessment, penetration testing, security monitoring, incident response, application security, and security architecture. I have a keen interest in practical applications of large-scale data analysis and infrastructure automation to increase organizational resilience to cyber attacks and other major disturbances. I also have practical experience automating Cyber Threat Intelligence sharing and organizing collective security initiatives through cooperative information sharing with public and private sector entities.
 
 ## Education
-University of Texas at Austin LBJ School of Public Affairs - Global Policy Studies (2012–2014)
-
-University of Rochester - Bachelor of Science in Molecular Genetics 1997
+* University of Texas at Austin LBJ School of Public Affairs - Global Policy Studies (2012–2014)
+* University of Rochester - Bachelor of Science in Molecular Genetics 1997
 
 ## Experience
 ### Principal, Critical Infrastructure Security
