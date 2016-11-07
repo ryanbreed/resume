@@ -1,13 +1,15 @@
 fontsize = 10pt
 margin = 1in
+formats = resume.pdf resume.html resume.docx resume.rtf
 
-resume : resume.pdf resume.html
+resume : $(formats)
 
 clean :
-	rm -f resume.pdf resume.html resume.docx
+	rm -f $(formats)
 
 resume.pdf : README.md
-	pandoc -f markdown_github README.md  --variable=fontsize:$(fontsize) \
+	pandoc -f markdown_github README.md  \
+	--variable=fontsize:$(fontsize) \
 	--variable=margin-left:$(margin) \
 	--variable=margin-right:$(margin) \
 	--variable=margin-top:$(margin) \
@@ -18,5 +20,12 @@ resume.pdf : README.md
 
 resume.html : README.md
 	pandoc -f markdown_github README.md  \
-		-t html5 \
-		-o resume.html
+		-t html5 -o resume.html
+
+resume.docx : README.md
+	pandoc -f markdown_github README.md  \
+		-t docx -o resume.docx
+
+resume.rtf : README.md
+	pandoc -f markdown_github README.md  \
+		-t rtf -o resume.rtf
