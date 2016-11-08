@@ -9,6 +9,9 @@
 <%= @overview %>
 
 ## Education
+<% @education.each do |ed| %>
+* <%= ed["institution"] -%> - <%= ed["program"] -%> (<%= ed["date"] -%>)
+<% end %>
 
 ## Experience
 
