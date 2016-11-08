@@ -1,0 +1,242 @@
+overview: Seasoned security professional with 19 years of deep technical experience in security assessment, penetration testing, security monitoring, incident response, application security, and security architecture. I have a keen interest in practical applications of large-scale data analysis and infrastructure automation to increase organizational resilience to cyber attacks and other major disturbances. I also have practical experience automating Cyber Threat Intelligence sharing and organizing collective security initiatives through cooperative information sharing with public and private sector entities.
+contact:
+  - medium: email
+    display: recruit@breed.org
+    link: mailto:recruit@REMOVETHIS.breed.org
+  - medium: voice
+    display: "+1 (661)RBR-EED1"
+    link: tel:+16617273331
+  - medium: github
+    display: github.com/ryanbreed
+    link: https://github.com/ryanbreed
+  - medium: linkedin
+    display: linkedin.com/in/ryanbreed
+    link: https://www.linkedin.com/in/ryanbreed
+skills:
+  Security:
+    - ArcSight ESM
+    - ArcSight Logger
+    - ArcSight Connectors
+    - ArcSight Management Center
+    - Bro IDS
+    - McAfee Network Security Platform
+    - SourceFire IPS
+    - Suricata IDS
+    - RSA Security Analytics
+    - Netwitness
+    - Carbon Black Protection (Bit9 Parity)
+    - AppLocker
+    - SILK
+    - Argus
+    - Gigamon
+    - SELinux
+  DF-IR:
+    - Volatility Framework
+    - plaso
+    - log2timeline
+    - sleuthkit
+    - foremost
+    - Memoryze
+    - EnCase
+    - F-Response
+    - Carbon Black Response
+    - Soltra Edge
+    - STIX
+    - CybOx
+    - TAXII
+    - OpenIOC
+    - Cuckoo Sandbox
+    - McAfee Advanced Threat Detection
+  Vulnerability Management:
+    - Rapid7 Nexpose
+    - RedSeal
+    - Tenable SecurityCenter
+    - MetaSploit Pro
+    - PhishMe
+    - OpenSCAP
+    - SCAP
+    - OVAL
+    - XCCDF
+  Crypto:
+    - HashiCorip Vault
+    - Microsoft Certificate Services
+    - cfssl
+    - OpenSSL
+    - PKCS11
+    - TPM
+    - x509
+    - PKI
+  Config Automation:
+    - packer
+    - Chef
+    - Ansible
+    - Consul
+    - ActiveDirectory Group Policy
+  Languages:
+    - Ruby
+    - Python
+    - R
+    - Shell/Bash
+    - PowerShell
+    - Go/golang
+    - Scala
+    - JavaScript
+  Workflow:
+    - JIRA
+    - SharePoint
+    - Confluence
+    - HipChat
+    - rundeck
+    - Stash
+    - Bitbucket
+    - git
+  Testing:
+    - jenkins
+    - TravisCI
+    - Bamboo
+    - selenium
+    - cucumber
+    - rspec
+    - serverspec
+    - brakeman
+    - rubocop
+    - capybara
+  Data Repositories:
+    - MySQL/MariaDB
+    - PostgreSQL
+    - Cassandra
+    - ElasticSearch
+    - InfluxDB
+    - OSISoft PI System
+    - Apache ZooKeeper
+  Data Pipeline:
+    - Apache Kafka
+    - RabbitMQ
+    - Logstash
+    - Pentaho Data Integration
+    - Flume
+    - Sqoop
+    - Avro
+    - Parquet
+  Monitoring:
+    - Telegraf
+    - Kapacitor
+    - Zabbix
+    - Nagios
+    - CollectD
+    - DiamonD
+    - StatsD
+    - Graphite
+    - jolokia
+    - jmxtrans
+  Web:
+    - Apache HTTPD
+    - nginx
+    - varnish cache
+    - squid
+    - haproxy
+    - traefik
+  Virtualization:
+    - VMWare ESX
+    - Docker
+    - QEMU
+    - KVM
+    - OpenStack
+    - Vagrant
+    - AWS EC2
+  Analysis-Visualization:
+    - Jupyter
+    - Rstudio
+    - Apache Spark
+    - Tableau
+    - Pig
+    - pandas
+    - scikit-learn
+    - shiny
+    - grafana
+    - kibana
+  Compliance:
+    - NERC CIP
+    - SSAE16
+    - NIST SP800-53
+    - NIST CyberSecurity Framework
+  Operating Systems:
+    - CentOS/RHEL 5-7
+    - Windows Server 2008/2012
+    - macOS
+    - OpenBSD
+    - FreeBSD
+  Network:
+    - Cisco IOS
+    - Arista EOS
+    - openvswitch
+    - ISC BIND
+    - AWS Route53
+    - InfoBlox DDI
+    - wireshark
+  Storage:
+    - ceph
+    - minio
+    - OpenStack Swift
+    - AWS S3
+education:
+  - institution: University of Texas at Austin LBJ School of Public Affairs
+    program: Global Policy Studies
+    date: 2012–2014
+  - institution: University of Rochester
+    program: Bachelor of Science in Molecular Genetics
+    date: '1997'
+certifications:
+  - institution: Mercedes AMG Driving Academy
+    certification: Completion of Advanced Training
+    date: '2015'
+  - institution: University of Texas at Austin Professional Development Center
+    certification: Leadership Skills for Managers Certificate Program
+    date: '2011'
+  - institution: Idaho National Laboratory National SCADA Test Bed
+    certification: Advanced SCADA Security
+    date: '2008'
+  - institution: Digital Bond, Inc.
+    certification: Certified SCADA Security Architect
+    date: '2006'
+courses:
+  - institution: SANS
+    title: Microsoft Windows Security
+    number: SANS-505
+  - institution: SANS
+    title: Reverse-engineering Malware
+    number: SANS-610
+  - institution: SANS
+    title: PowerShell
+    number: SANS-537
+  - institution: SANS
+    title: Identifying and Removing Malware
+    number: SANS-537
+  - institution: HP Enterprise
+    title: ArcSight ESM 6.5 Security Administrator and Analyst
+    number: HPE-00924200
+awards:
+  - institution: ERCOT
+    award: Team Player Award
+    date: 2016-03
+  - institution: Mercedes AMG Driving Academy
+    award: 1st place Team Autocross
+    date: 2015-06
+  - institution: ERCOT
+    award: Core Value Award for Expertise
+    date: 2014-04
+  - institution: ERCOT
+    award: Team Player Award
+    date: 2014-04
+  - institution: ERCOT
+    award: Exceptional Performer Award
+    date: 2014-01
+  - institution: ERCOT
+    award: 'Certificate of Recognition: Principal'
+    date: 2012-12
+  - institution: ERCOT
+    award: Team Player Award
+    date: 2011-07
+  - institution: Idaho National Laboratory NSTB Advanced SCADA Security Training
+    award: Team Captain and Winning Team
+    date: 2008-11

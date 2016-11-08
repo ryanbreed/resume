@@ -1,11 +1,12 @@
-<%
-  require 'csv'
-  overview=File.readlines("data/overview.txt").map(&:chomp).join("\n")
-%>
 # Ryan Breed
+| Contact | Info |
+|---------+------|
+<% @contact.each do |con| %>
+| <%= con["medium"] %> | [`<%= con["display"] -%>`](<%= con["link"] -%>) |
+<% end %>
 
 ## Overview
-<%= overview %>
+<%= @overview %>
 
 ## Education
 

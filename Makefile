@@ -19,8 +19,8 @@ clean :
 	make -C templates clean
 	rm -f $(formats)
 
-resume.md : templates
-	erb templates/README-template.md.erb > resume.md
+resume.md : templates data/resume.yaml
+	erubis -f data/resume.yaml templates/README-template.md.erb > resume.md
 
 resume.pdf : README.md templates
 	pandoc -f markdown_github README.md  \
