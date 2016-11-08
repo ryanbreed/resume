@@ -19,6 +19,10 @@
   <w:style w:type="paragraph" w:default="1" w:styleId="Normal">
     <w:name w:val="Normal" />
     <w:qFormat />
+    <w:rPr>
+      <w:sz w:val="20" />
+      <w:szCs w:val="20" />
+    </w:rPr>
   </w:style>
     <w:style w:type="paragraph" w:styleId="BodyText">
     <w:name w:val="Body Text" />

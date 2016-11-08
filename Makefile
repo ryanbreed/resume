@@ -11,16 +11,15 @@ formats = resume.pdf resume.html resume.docx resume.tex
 resume : $(formats)
 
 templates/resume-template.docx :
-	make -C templates resume-template.docx
-
-resume_templates :
 	make -C templates
+  
+templates : templates/resume-template.docx
 
 clean :
 	make -C templates clean
 	rm -f $(formats)
 
-resume.pdf : README.md resume_templates
+resume.pdf : README.md templates
 	pandoc -f markdown_github README.md  \
 	--template=templates/resume-template.latex \
 	$(layout_variables) \
@@ -28,17 +27,17 @@ resume.pdf : README.md resume_templates
 	--variable=subparagraph \
 	-o resume.pdf
 
-resume.html : README.md resume_templates
+resume.html : README.md templates
 	pandoc -f markdown_github README.md  \
 	  --template=templates/resume-template.html5 \
 		-t html5 -s -o resume.html
 
-resume.docx : README.md templates/resume-template.docx
+resume.docx : README.md templates
 	pandoc -f markdown_github README.md  \
 	  --reference-docx=templates/resume-template.docx \
 		-t docx -o resume.docx
 
-resume.tex: README.md resume_templates
+resume.tex: README.md templates
 	pandoc -f markdown_github README.md  \
 	  --template=templates/resume-template.latex \
 	$(layout_variables) \
