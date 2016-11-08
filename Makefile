@@ -28,8 +28,6 @@ resume.pdf : README.md resume_templates
 	--variable=subparagraph \
 	-o resume.pdf
 
-# --variable="title:Ryan Breed" \
-
 resume.html : README.md resume_templates
 	pandoc -f markdown_github README.md  \
 	  --template=templates/resume-template.html5 \
