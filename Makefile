@@ -6,18 +6,21 @@ layout_variables = 	--variable=fontsize:$(fontsize) \
 	--variable=margin-top:$(margin) \
 	--variable=margin-bottom:$(margin) \
 
-formats = resume.pdf resume.html resume.docx resume.tex
+formats = resume.pdf resume.html resume.docx resume.tex resume.md
 
 resume : $(formats)
 
 templates/resume-template.docx :
 	make -C templates
-  
+
 templates : templates/resume-template.docx
 
 clean :
 	make -C templates clean
 	rm -f $(formats)
+
+resume.md : templates
+	erb templates/README-template.md.erb > resume.md
 
 resume.pdf : README.md templates
 	pandoc -f markdown_github README.md  \

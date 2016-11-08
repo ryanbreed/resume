@@ -180,9 +180,6 @@ TSWLatexianTemp*
 *~[0-9]*
 .idea/
 /vendor/bundle/
-resume.docx
-resume.pdf
-resume.html
-resume.tex
+resume.*
 /templates/resume-template.docx
 Gemfile.lock
