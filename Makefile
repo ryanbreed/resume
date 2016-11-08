@@ -1,14 +1,22 @@
 fontsize = 10pt
 margin = 1in
-formats = resume.pdf resume.html resume.docx resume.rtf
+formats = resume.pdf resume.html resume.docx resume.tex
 
 resume : $(formats)
 
+templates/resume-template.docx :
+	make -C templates resume-template.docx
+
+resume_templates :
+	make -C templates
+
 clean :
+	make -C templates clean
 	rm -f $(formats)
 
-resume.pdf : README.md
+resume.pdf : README.md resume_templates
 	pandoc -f markdown_github README.md  \
+	--template=templates/resume-template.latex \
 	--variable=fontsize:$(fontsize) \
 	--variable=margin-left:$(margin) \
 	--variable=margin-right:$(margin) \
@@ -18,14 +26,17 @@ resume.pdf : README.md
 	--variable=subparagraph \
 	-o resume.pdf
 
-resume.html : README.md
+resume.html : README.md resume_templates
 	pandoc -f markdown_github README.md  \
-		-t html5 -o resume.html
+	  --template=templates/resume-template.html5 \
+		-t html5 -s -o resume.html
 
-resume.docx : README.md
+resume.docx : README.md templates/resume-template.docx
 	pandoc -f markdown_github README.md  \
+	  --reference-docx=templates/resume-template.docx \
 		-t docx -o resume.docx
 
-resume.rtf : README.md
+resume.tex: README.md resume_templates
 	pandoc -f markdown_github README.md  \
-		-t rtf -o resume.rtf
+	  --template=templates/resume-template.latex \
+	  -s -t latex -o resume.tex
