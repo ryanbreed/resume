@@ -1,5 +1,11 @@
 fontsize = 10pt
 margin = 1in
+layout_variables = 	--variable=fontsize:$(fontsize) \
+	--variable=margin-left:$(margin) \
+	--variable=margin-right:$(margin) \
+	--variable=margin-top:$(margin) \
+	--variable=margin-bottom:$(margin) \
+
 formats = resume.pdf resume.html resume.docx resume.tex
 
 resume : $(formats)
@@ -17,14 +23,12 @@ clean :
 resume.pdf : README.md resume_templates
 	pandoc -f markdown_github README.md  \
 	--template=templates/resume-template.latex \
-	--variable=fontsize:$(fontsize) \
-	--variable=margin-left:$(margin) \
-	--variable=margin-right:$(margin) \
-	--variable=margin-top:$(margin) \
-	--variable=margin-bottom:$(margin) \
+	$(layout_variables) \
 	--variable=indent \
 	--variable=subparagraph \
 	-o resume.pdf
+
+# --variable="title:Ryan Breed" \
 
 resume.html : README.md resume_templates
 	pandoc -f markdown_github README.md  \
@@ -39,4 +43,5 @@ resume.docx : README.md templates/resume-template.docx
 resume.tex: README.md resume_templates
 	pandoc -f markdown_github README.md  \
 	  --template=templates/resume-template.latex \
+	$(layout_variables) \
 	  -s -t latex -o resume.tex
