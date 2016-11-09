@@ -181,3 +181,4 @@ TSWLatexianTemp*
 .idea/
 /templates/resume-template.docx
 Gemfile.lock
+/cover.*

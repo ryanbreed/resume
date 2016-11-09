@@ -13,7 +13,7 @@ clean :
 	rm -f $(formats)
 
 resume.md : templates data/resume.yaml
-	erubis -f data/resume.yaml templates/README-template.md.erb > resume.md
+	erubis -f data/resume.yaml templates/resume-template.md.erb > resume.md
 
 resume.pdf : resume.md templates
 	pandoc $(source) \
