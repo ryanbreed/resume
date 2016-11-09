@@ -179,7 +179,5 @@ TSWLatexianTemp*
 # KBibTeX
 *~[0-9]*
 .idea/
-/vendor/bundle/
-/resume.*
 /templates/resume-template.docx
 Gemfile.lock
