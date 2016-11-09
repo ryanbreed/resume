@@ -1,4 +1,5 @@
-formats = resume.pdf resume.html resume.docx resume.tex resume.md
+formats = resume.pdf resume.html resume.docx resume.tex resume.md README.md
+source = -f markdown_github resume.md
 
 resume : $(formats)
 
@@ -14,24 +15,27 @@ clean :
 resume.md : templates data/resume.yaml
 	erubis -f data/resume.yaml templates/README-template.md.erb > resume.md
 
-resume.pdf : README.md templates
-	pandoc -f markdown_github README.md  \
+resume.pdf : resume.md templates
+	pandoc $(source) \
 	--template=templates/resume-template.latex \
 	--variable=indent \
 	--variable=subparagraph \
 	-o resume.pdf
 
-resume.html : README.md templates
-	pandoc -f markdown_github README.md  \
+resume.html : resume.md templates
+	pandoc $(source) \
 	  --template=templates/resume-template.html5 \
 		-t html5 -s -o resume.html
 
-resume.docx : README.md templates
-	pandoc -f markdown_github README.md  \
+resume.docx : resume.md templates
+	pandoc $(source) \
 	  --reference-docx=templates/resume-template.docx \
 		-t docx -o resume.docx
 
-resume.tex: README.md templates
-	pandoc -f markdown_github README.md  \
+resume.tex: resume.md templates
+	pandoc $(source) \
 	  --template=templates/resume-template.latex \
 	  -s -t latex -o resume.tex
+
+README.md : resume.md templates
+	cp resume.md README.md

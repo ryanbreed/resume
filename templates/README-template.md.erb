@@ -56,5 +56,7 @@ end
 
 ## Skills
 <% @skills.each do |cat, skilz| %>
-* *<%= cat -%>*: <%= skilz.join(', ') %>
+- **<%= cat -%>**
+  <%= skilz.join(', ') %>
+
 <% end %>
