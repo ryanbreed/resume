@@ -1,6 +1,8 @@
-**Ryan Breed**
-12249 Chelsea Glen pl
-Austin, Tx 78753
+> **Ryan Breed**
+> 12249 Chelsea Glen pl
+> Austin, Tx 78753
+
+
 
 It is with great interest that I am tendering my application for the position of <%= ENV['JOB_TITLE'] %>. <%= @flavors[ENV['JOB_FLAVOR']] %>
 
@@ -9,6 +11,9 @@ Beyond my technical expertise, I have made it a priority to develop the necessar
 I look forward to the opportunity to discuss the position and how my experience can benefit the overall strategic mission. Thank you for your time and consideration.
 
 ---
+
+```
 <% @contact.each do |con| %>
-<%= con["medium"] %>: [`<%= con["display"] -%>`](<%= con["link"] -%>)
+<%= con["medium"] + ":" + " "*(8 - con["medium"].length ) %> <%= con["display"] %>
 <% end %>
+```

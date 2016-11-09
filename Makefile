@@ -47,5 +47,5 @@ cover.md : templates
 
 cover.pdf : cover.md
 	pandoc $(cover_source) \
-	--template=templates/resume-template.latex \
+	--template=templates/cover-template.latex \
 	-o cover.pdf
