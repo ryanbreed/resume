@@ -1,3 +1,13 @@
+<%
+require 'date'
+YM_FORMAT='%b %Y'
+
+def date_range(position)
+  s = DateTime.parse(position['d_start'])
+  e = DateTime.parse(position['d_end'])
+  format("%s - %s", s.strftime(YM_FORMAT), e.strftime(YM_FORMAT) )
+end
+%>
 # Ryan Breed
 | Contact | Info |
 |---------+------|
@@ -14,11 +24,37 @@
 <% end %>
 
 ## Experience
+<% @experience.each do |pos| %>
+### <%= pos["title"] %>
+##### *<%= pos["institution"] %>* (<%= date_range(pos) -%>)
+<% pos["responsibilities"].each do |item| %>
+* <%= item %>
+<% end %>
 
+<% if pos.key?('accomplishments') %>
+##### Accomplishments
+<% pos["accomplishments"].each do |item| %>
+* <%= item %>
+<% end %>
+<% end %>
+
+<% end %>
 ## Certifications
+<% @certifications.each do |item| %>
+* <%= item["certification"] -%> - <%= item["institution"] -%> (<%= item["date"] -%>)
+<% end %>
 
 ## Courses
+<% @courses.each do |item| %>
+* <%= item["institution"] -%> - <%= item["title"] -%> (<%= item["number"] -%>)
+<% end %>
 
 ## Awards
+<% @awards.each do |item| %>
+* <%= item["institution"] -%> - <%= item["award"] -%> (<%= DateTime.parse(item["date"]).strftime(YM_FORMAT) %>)
+<% end %>
 
 ## Skills
+<% @skills.each do |cat, skilz| %>
+* *<%= cat -%>*: <%= skilz.join(', ') %>
+<% end %>
