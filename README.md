@@ -1,6 +1,6 @@
 # Ryan Breed
 | Contact | Info |
-|---------+------|
+|---------|------|
 | email | [`recruit@breed.org`](mailto:recruit@REMOVETHIS.breed.org) |
 | voice | [`+1 (661)RBR-EED1`](tel:+16617273331) |
 | github | [`github.com/ryanbreed`](https://github.com/ryanbreed) |
