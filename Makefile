@@ -2,6 +2,11 @@ resumes = resume.pdf resume.html resume.docx resume.tex resume.md README.md
 covers = cover-*.md cover-*.pdf cover-*.docx cover-*.html
 resume_source = -f markdown_github resume.md
 
+ifndef DATAFILE
+DATAFILE=data/resume.yaml
+export DATAFILE
+endif
+
 ifndef JOB_TITLE
 JOB_TITLE=JOBTITLE
 export JOB_TITLE
@@ -18,8 +23,8 @@ clean :
 	make -C templates clean
 	rm -f $(resumes) $(covers)
 
-resume.md : templates data/resume.yaml
-	erubis -f data/resume.yaml templates/resume-template.md.erb > resume.md
+resume.md : templates $(DATAFILE)
+	erubis -f $(DATAFILE) templates/resume-template.md.erb > resume.md
 
 resume.pdf : resume.md
 	pandoc $(resume_source) \
@@ -46,8 +51,10 @@ resume.tex: resume.md
 README.md : resume.md templates
 	cp resume.md README.md
 
+covers: cover-data.docx cover-sre.docx cover-security.docx
+
 cover-%.md : templates
-	JOB_FLAVOR=$* erubis -f data/resume.yaml templates/cover-template.md.erb > $@
+	JOB_FLAVOR=$* erubis -f $(DATAFILE) templates/cover-template.md.erb > $@
 
 cover-%.pdf : cover-%.md
 	pandoc -f markdown_github $< \
