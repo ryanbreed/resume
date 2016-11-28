@@ -1,14 +1,18 @@
-overview: Seasoned security professional with 19 years of deep technical experience in security assessment, penetration testing, security monitoring, incident response, application security, and security architecture. I have a keen interest in practical applications of large-scale data analysis and infrastructure automation to increase organizational resilience to cyber attacks and other major disturbances. I also have practical experience automating Cyber Threat Intelligence sharing and organizing collective security initiatives through cooperative information sharing with public and private sector entities.
-flavors:
-  secops: |
-    I have over a decade of data-intensive analytical experience in real time cyber security operations and Digital Forensics/Incident Response. Throughout that time, I have both leveraged and built large-scale data processing pipelines to generate insights and maintain situation awareness for both the real-time and historical analytical frames. I have undertaken many data integration projects to combine data sources from heterogeneous vendor platforms when there has been substantial business value to be gained. Finally, as a testament to my interest and determination, I have developed novel analytical techniques based on domain knowledge using a variety of traditional, statistical, and machine-learning approaches. Some samples of this work are available in my GitHub and LinkedIn profiles.
-    I also have a strong track record of building performant systems that can scale with workload and operate reliably in hostile networks. I focus on resilient outcomes across all lifecycle stages in environments where technologies and threats change on much tighter loops than release schedules.
-  architect: |
-    I have a strong track record of building performant systems that can scale with workload and operate reliably in hostile networks. I focus on resilient outcomes across all lifecycle stages in environments where technologies and threats change on much tighter loops than release schedules.
-  data: |
-    I have over a decade of data-intensive analytical experience in cyber security operations. Througout that time, I have both leveraged and built large-scale data processing pipelines to generate insights and maintain situation awareness for both the real-time and historical analytical frames. I have undertaken many data integration projects to combine data sources from heterogeneous vendor platforms when there has been substantial business value to be gained. Finally, as a testament to my interest and determination, I have developed novel analytical techniques based on domain knowledge using a variety of traditional, statistical, and machine-learning approaches. Some samples of this work are available in my github and linkedin profiles.
-  sre: |
-    I have a strong track record of building and operating performant systems that can scale with workload and operate reliably in hostile networks. I focus on situation awareness and resilient outcomes across all lifecycle stages in environments where technologies and threats can change on much tighter loops than release schedules. My deep background in security analytics helps me to formulate the questions and gather the information necessary for data-driven decision making in both the real time and historical cases.
+overview: Seasoned professional with 19 years of deep technical experience in architecture, monitoring, incident response, application security, and penetration testing. I have a keen interest in practical applications of large-scale data analysis, automation, and organizational resilience. I also have practical experience developing cooperative intelligence sharing partnerships with both public and private sector entities.
+cover:
+  - flavor: secops
+    text: |
+      I have over a decade of data-intensive analytical experience in real time cyber security operations and Digital Forensics/Incident Response. Throughout that time, I have both leveraged and built large-scale data processing pipelines to generate insights and maintain situation awareness for both the real-time and historical analytical frames. I have undertaken many data integration projects to combine data sources from heterogeneous vendor platforms when there has been substantial business value to be gained. Finally, as a testament to my interest and determination, I have developed novel analytical techniques based on domain knowledge using a variety of traditional, statistical, and machine-learning approaches. Some samples of this work are available in my GitHub and LinkedIn profiles.
+      I also have a strong track record of building performant systems that can scale with workload and operate reliably in hostile networks. I focus on resilient outcomes across all lifecycle stages in environments where technologies and threats change on much tighter loops than release schedules.
+  - flavor: architect
+    text: |
+      I have a strong track record of building performant systems that can scale with workload and operate reliably in hostile networks. I focus on resilient outcomes across all lifecycle stages in environments where technologies and threats change on much tighter loops than release schedules.
+  - flavor: data
+    text: |
+      I have over a decade of data-intensive analytical experience in cyber security operations. Througout that time, I have both leveraged and built large-scale data processing pipelines to generate insights and maintain situation awareness for both the real-time and historical analytical frames. I have undertaken many data integration projects to combine data sources from heterogeneous vendor platforms when there has been substantial business value to be gained. Finally, as a testament to my interest and determination, I have developed novel analytical techniques based on domain knowledge using a variety of traditional, statistical, and machine-learning approaches. Some samples of this work are available in my github and linkedin profiles.
+  - flavor: sre
+    text: |
+      I have a strong track record of building and operating performant systems that can scale with workload and operate reliably in hostile networks. I focus on situation awareness and resilient outcomes across all lifecycle stages in environments where technologies and threats can change on much tighter loops than release schedules. My deep background in security analytics helps me to formulate the questions and gather the information necessary for data-driven decision making in both the real time and historical cases.
 contact:
   - medium: email
     display: recruit@breed.org
@@ -28,114 +32,182 @@ experience:
     d_end: 2016/10
     institution: Electric Reliability Council of Texas (ERCOT)
     responsibilities:
-      - Individual contributor responsible for engaging business units to develop strategic opportunities for improving grid and market systems while delivering on key security initiatives.
-      - Serve as senior resource in critical security incidents by directing tasking and providing investigation and analytical support as necessary.
-      - Develop novel analytics for security event data. Exploit home-field advantage to degrade adversarial mobility and freedom of action.
-      - Prioritize intelligence collection and analysis projects. Develop strategic plans for threats to critical grid and market systems.
-      - Research and implement emerging technologies for application to business and security challenges.
-      - Perform outreach to public and private sector via ISO/RTO council and DHS CISCP. Engage in public speaking to advocate for electricity sector needs and share information and practices
+      - text: Individual contributor responsible for engaging business units to develop strategic opportunities for improving grid and market systems while delivering on key security initiatives.
+        flavors: []
+      - text: Serve as senior resource in critical security incidents by directing tasking and providing investigation and analytical support as necessary.
+        flavors: []
+      - text: Develop novel analytics for security event data. Exploit home-field advantage to degrade adversarial mobility and freedom of action.
+        flavors: []
+      - text: Prioritize intelligence collection and analysis projects. Develop strategic plans for threats to critical grid and market systems.
+        flavors: []
+      - text: Research and implement emerging technologies for application to business and security challenges.
+        flavors: []
+      - text: Perform outreach to public and private sector via ISO/RTO council and DHS CISCP. Engage in public speaking to advocate for electricity sector needs and share information and practices
+        flavors: []
     accomplishments:
-      - Automated real-time integration of CMDB, IPAM, access control, and vulnerability data into machine-readable representation of entities, applications, business systems, and infrastructure.
-      - Automated defensive countermeasures. Used model data to safely deploy automated containment, investigation, and other response countermeasures in response to automated threat detection analytics.
-      - Implemented TAXII endpoint to ingest STIX cyber threat intelligence feeds and propagate indicators to monitoring and control surfaces.
-      - Developed security testing for Continuous Integration. Used Bamboo to automate Nexpose for vulnerability and baseline assessment. Security findings over a project-specific risk threshold triggered a build failure and intiated response notification chain.
-      - Developed automated report and security finding distribution. Management reports were automatically updated and reconfigured based on changes to underlying assets and changes in responsible parties.
-      - Developed Ansible playbooks for CIS benchmarks and Nexpose vulnerabilities. Automated compliance artifact creation and remediation of findings in dev/test environments. Tickets for specific findings were dispatched to responsible parties where human intervention was required.
-      - Implemented ELK stack for monitoring BroIDS, auditd, RSA Netwitness, and ArcSight ESM/Connector logs. Developed custom logstash plugins to enable event ingest from CMDB and ArcSight.
-      - Implemented Telegraf, InfluxDB, and Grafana to translate event data into time series domain for tracking metrics and developing new analytics. Collected system telemetry with telegraf to enable performance analysis.
-      - Developed scenario and training injects for GridEx III. Developed cyber simulator and ChatOps platform for use during exercise play.
-      - Developed Big Data test bed. Deployed DataStax Enterprise Cassandra, Hortonworks Hadoop, Apache Spark, GraphLab, Neo4j, and JupyterHub environments loaded with data from IT, market, and grid systems. Developed proof-of-concept analyses showcasing each technology platform for evaluation by business and IT owners
+      - text: Automated real-time integration of CMDB, IPAM, access control, and vulnerability data into machine-readable representation of entities, applications, business systems, and infrastructure.
+        flavors: []
+      - text: Automated defensive countermeasures. Used model data to safely deploy automated containment, investigation, and other response countermeasures in response to automated threat detection analytics.
+        flavors: []
+      - text: Implemented TAXII endpoint to ingest STIX cyber threat intelligence feeds and propagate indicators to monitoring and control surfaces.
+        flavors: []
+      - text: Developed security testing for Continuous Integration. Used Bamboo to automate Nexpose for vulnerability and baseline assessment. Security findings over a project-specific risk threshold triggered a build failure and intiated response notification chain.
+        flavors: []
+      - text: Developed automated report and security finding distribution. Management reports were automatically updated and reconfigured based on changes to underlying assets and changes in responsible parties.
+        flavors: []
+      - text: Developed Ansible playbooks for CIS benchmarks and Nexpose vulnerabilities. Automated compliance artifact creation and remediation of findings in dev/test environments. Tickets for specific findings were dispatched to responsible parties where human intervention was required.
+        flavors: []
+      - text: Implemented ELK stack for monitoring BroIDS, auditd, RSA Netwitness, and ArcSight ESM/Connector logs. Developed custom logstash plugins to enable event ingest from CMDB and ArcSight.
+        flavors: []
+      - text: Implemented Telegraf, InfluxDB, and Grafana to translate event data into time series domain for tracking metrics and developing new analytics. Collected system telemetry with telegraf to enable performance analysis.
+        flavors: []
+      - text: Developed scenario and training injects for GridEx III. Developed cyber simulator and ChatOps platform for use during exercise play.
+        flavors: []
+      - text: Developed Big Data test bed. Deployed DataStax Enterprise Cassandra, Hortonworks Hadoop, Apache Spark, GraphLab, Neo4j, and JupyterHub environments loaded with data from IT, market, and grid systems. Developed proof-of-concept analyses showcasing each technology platform for evaluation by business and IT owners
+        flavors: []
   - title: Manager, Critical Infrastructure Security
     d_start: 2009/12
     d_end: 2012/11
     institution: Electric Reliability Council of Texas (ERCOT)
     responsibilities:
-      - Managed a team of 9 security analysts to cover security operations, monitoring, incident response, compliance controls, and security architecture.
-      - Managed departmental budget, including annual and quarterly forecasting. Developed and presented project proposals for cyber security initiatives.
-      - Provided guidance and oversight in the capital project process to ensure security objectives were incorporated into investment initiatives.
-      - Lead audit response efforts for cyber security control activities in NERC CIP and SAS70 compliance programs.
-      - Managed tasking and tracking to remediate findings from audits and other outside assessments.
-      - Managed employee performance and aligned career development goals with strategic department objectives.
-      - Developed working threat model for market and grid operations to guide strategic planning.
-      - Developed, maintained, and exercised Disaster Recovery and Business Continuity plans for cyber security systems.
-      - Contracted outside penetration tests and assessments to proactively identify and remediate security issues in business and IT systems.
-      - Lead participation in public/private partnership projects with DOE and DHS.
-      - Attained SECRET clearance under DHS Private Sector Clearance Program and attended threat briefings as necessary.
+      - text: Managed a team of 9 security analysts to cover security operations, monitoring, incident response, compliance controls, and security architecture.
+        flavors: []
+      - text: Managed departmental budget, including annual and quarterly forecasting. Developed and presented project proposals for cyber security initiatives.
+        flavors: []
+      - text: Provided guidance and oversight in the capital project process to ensure security objectives were incorporated into investment initiatives.
+        flavors: []
+      - text: Lead audit response efforts for cyber security control activities in NERC CIP and SAS70 compliance programs.
+        flavors: []
+      - text: Managed tasking and tracking to remediate findings from audits and other outside assessments.
+        flavors: []
+      - text: Managed employee performance and aligned career development goals with strategic department objectives.
+        flavors: []
+      - text: Developed working threat model for market and grid operations to guide strategic planning.
+        flavors: []
+      - text: Developed, maintained, and exercised Disaster Recovery and Business Continuity plans for cyber security systems.
+        flavors: []
+      - text: Contracted outside penetration tests and assessments to proactively identify and remediate security issues in business and IT systems.
+        flavors: []
+      - text: Lead participation in public/private partnership projects with DOE and DHS.
+        flavors: []
+      - text: Attained SECRET clearance under DHS Private Sector Clearance Program and attended threat briefings as necessary.
+        flavors: []
     accomplishments:
-      - Led implementation of DOE ESNM/CRISP pilot site and participated in program development workshops.
-      - Developed automated security advisory analysis system to triage, score, and dispatch vendor advisories and vulnerability notifications.
-      - Represented Cybersecurity Department in GridEx II Exercise Play.
-      - Represented Electricity Subsector in classified threat workshops for IC at DOE INL.
+      - text: Led implementation of DOE ESNM/CRISP pilot site and participated in program development workshops.
+        flavors: []
+      - text: Developed automated security advisory analysis system to triage, score, and dispatch vendor advisories and vulnerability notifications.
+        flavors: []
+      - text: Represented Cybersecurity Department in GridEx II Exercise Play.
+        flavors: []
+      - text: Represented Electricity Subsector in classified threat workshops for IC at DOE INL.
+        flavors: []
   - title: Lead, Security Operations
     d_start: 2005/12
     d_end: 2009/12
     institution: Electric Reliability Council of Texas (ERCOT)
     responsibilities:
-      - Performed security monitoring, incident response, and investigations.
-      - Infrastructure design and implementation for SIEM, IPS, IDS, Enterprise Forensics, full-content packet capture, web content filtering, and vulnerability management.
-      - Workflow development for security operations, monitoring, and investigation processes. Developed dashboards, reports, and incident documentation templates. Documented procedures and created reports for compliance controls.
-      - SIEM content development for automated analysis of security events.
-      - IDS/IPS signature development to incorporate cyber observables extracted from investigations into real-time monitoring functions.
-      - Perform forensic analysis of incident artifacts and other digital evidence. Develop incident reports and brief management on findings and recommended response actions
+      - text: Performed security monitoring, incident response, and investigations.
+        flavors: []
+      - text: Infrastructure design and implementation for SIEM, IPS, IDS, Enterprise Forensics, full-content packet capture, web content filtering, and vulnerability management.
+        flavors: []
+      - text: Workflow development for security operations, monitoring, and investigation processes. Developed dashboards, reports, and incident documentation templates. Documented procedures and created reports for compliance controls.
+        flavors: []
+      - text: SIEM content development for automated analysis of security events.
+        flavors: []
+      - text: IDS/IPS signature development to incorporate cyber observables extracted from investigations into real-time monitoring functions.
+        flavors: []
+      - text: Perform forensic analysis of incident artifacts and other digital evidence. Develop incident reports and brief management on findings and recommended response actions
+        flavors: []
     accomplishments:
-      - Deployed 2 major iterations of ArcSight ESM
-      - Integrated ArcSight ESM with IBM/ISS IPS, Snort NIDS, Tenable Nessus, Windows Events, UNIX/Network/Firewall Syslog, Oracle RDBMS, Microsoft SQL Server and Symantec Antivirus.
-      - Developed automated analysis tools for decoding malicious javascript extracted from network traffic.
-      - Developed full-content packet capture and indexing system to extract packet captures indexed on time and IP address.
-      - Developed management application for BlueCoat site categorization via local policy database
+      - text: Deployed 2 major iterations of ArcSight ESM
+        flavors: []
+      - text: Integrated ArcSight ESM with IBM/ISS IPS, Snort NIDS, Tenable Nessus, Windows Events, UNIX/Network/Firewall Syslog, Oracle RDBMS, Microsoft SQL Server and Symantec Antivirus.
+        flavors: []
+      - text: Developed automated analysis tools for decoding malicious javascript extracted from network traffic.
+        flavors: []
+      - text: Developed full-content packet capture and indexing system to extract packet captures indexed on time and IP address.
+        flavors: []
+      - text: Developed management application for BlueCoat site categorization via local policy database
+        flavors: []
   - title: Security Consultant
     d_start: 2003/03
     d_end: 2005/12
     institution: Unisys
     responsibilities:
-      - Performed security assessments, penetration tests, and risk assessments for clients in the Financial Services, Health Care, Manufacturing, and Public sectors.
-      - Wrote and presented post-engagement reports to clients and provided guidance for addressing findings in line with business objectives.
-      - Developed labor models and project materials to support pre-sales and standardize engagement delivery across the security practice.
-      - Developed application penetration test capabilities and assessment framework for other consultants within the practice.
-      - Directed team activities for large assessments and security infrastructure implementation projects.
+      - text: Performed security assessments, penetration tests, and risk assessments for clients in the Financial Services, Health Care, Manufacturing, and Public sectors.
+        flavors: []
+      - text: Wrote and presented post-engagement reports to clients and provided guidance for addressing findings in line with business objectives.
+        flavors: []
+      - text: Developed labor models and project materials to support pre-sales and standardize engagement delivery across the security practice.
+        flavors: []
+      - text: Developed application penetration test capabilities and assessment framework for other consultants within the practice.
+        flavors: []
+      - text: Directed team activities for large assessments and security infrastructure implementation projects.
+        flavors: []
     accomplishments:
-      - Was written up in article for [InformationWeek](http://www.informationweek.com/hack-in-progress/d/d-id/1020652)
+      - text: Was featured in article for [InformationWeek](http://www.informationweek.com/hack-in-progress/d/d-id/1020652)
   - title: Senior Staff, Security Engineering
     d_start: 2002/06
     d_end: 2003/02
     institution: Zurich Global Assets
     responsibilities:
-      - Administered local IDS, Firewall, and UNIX systems.
-      - Acted as ZGA divisional representative at Zurich Financial Services Global Information Technology Services activities.
-      - Performed security assessments on ZGA and ZFS infrastructure.
-      - Performed local security monitoring.
-      - Lead global security monitoring team (Dublin, Zurich, Schaumberg, New York, Los Angeles) across ZFS divisions.
-      - Lead the global PKI implementation team
-      - Lead design and implementation for Security and Network Operations Center for ZGA infrastructure.
+      - text: Administered local IDS, Firewall, and UNIX systems.
+        flavors: []
+      - text: Acted as ZGA divisional representative at Zurich Financial Services Global Information Technology Services activities.
+        flavors: []
+      - text: Performed security assessments on ZGA and ZFS infrastructure.
+        flavors: []
+      - text: Performed local security monitoring.
+        flavors: []
+      - text: Lead global security monitoring team (Dublin, Zurich, Schaumberg, New York, Los Angeles) across ZFS divisions.
+        flavors: []
+      - text: Lead the global PKI implementation team
+        flavors: []
+      - text: Lead design and implementation for Security and Network Operations Center for ZGA infrastructure.
+        flavors: []
   - title: Technical Services Director
     d_start: 1999/10
     d_end: 2002/06
     institution: ThruPoint
     responsibilities:
-      - Performed security assessment, penetration test, infrastructure design, and infrastructure implementation projects for clients in Financial Services and Media sectors.
-      - Served as final internal point of escalation for all security consulting technical matters across the company.
-      - Directed security projects for large engagements.
-      - Provided staff skills development assistance for other security consultants.
-      - Design, build, and support in-house security testing lab environment.
+      - text: Performed security assessment, penetration test, infrastructure design, and infrastructure implementation projects for clients in Financial Services and Media sectors.
+        flavors: []
+      - text: Served as final internal point of escalation for all security consulting technical matters across the company.
+        flavors: []
+      - text: Directed security projects for large engagements.
+        flavors: []
+      - text: Provided staff skills development assistance for other security consultants.
+        flavors: []
+      - text: Design, build, and support in-house security testing lab environment.
+        flavors: []
   - title: Security Consultant
     d_start: 1998/10
     d_end: 1999/09
     institution: Security Industries Automation Corporation (SIAC)
     responsibilities:
-      - Did first shift firewall operations for Gauntlet firewalls on the internal perimeter networks.
-      - Performed start-of-day and end-of-day procedures to ensure continuity of operations for second and third shifts.
-      - Did requirements analysis for business requests and implemented subsequent infrastructure changes.
-      - Performed UNIX system administration tasks to support maintenance activities.
-      - Participated in Y2K readiness preparations for NYSE security infrastructure.
+      - text: Did first shift firewall operations for Gauntlet firewalls on the internal perimeter networks.
+        flavors: []
+      - text: Performed start-of-day and end-of-day procedures to ensure continuity of operations for second and third shifts.
+        flavors: []
+      - text: Did requirements analysis for business requests and implemented subsequent infrastructure changes.
+        flavors: []
+      - text: Performed UNIX system administration tasks to support maintenance activities.
+        flavors: []
+      - text: Participated in Y2K readiness preparations for NYSE security infrastructure.
+        flavors: []
   - title: Security Consultant
     d_start: 1997/05
     d_end: 1998/09
     institution: Interactive Futures
     responsibilities:
-      - Performed security assessments for clients in the Media, Legal, and non-profit sector.
-      - Designed and implemented CheckPoint and Gauntlet firewalls for VAR customers.
-      - Designed and implemented Sun Solaris/SPARC systems for VAR customers.
-      - Supported pre-sales discovery and developed written responses to RFP solicitations.
+      - text: Performed security assessments for clients in the Media, Legal, and non-profit sector.
+        flavors: []
+      - text: Designed and implemented CheckPoint and Gauntlet firewalls for VAR customers.
+        flavors: []
+      - text: Designed and implemented Sun Solaris/SPARC systems for VAR customers.
+        flavors: []
+      - text: Supported pre-sales discovery and developed written responses to RFP solicitations.
+        flavors: []
 skills:
   Security:
     - ArcSight ESM
@@ -151,9 +223,11 @@ skills:
     - Carbon Black Protection (Bit9 Parity)
     - AppLocker
     - SILK
-    - Argus
+    - argus
     - Gigamon
     - SELinux
+    - snort
+    - mod_security
   DF-IR:
     - Volatility Framework
     - plaso
@@ -171,16 +245,22 @@ skills:
     - OpenIOC
     - Cuckoo Sandbox
     - McAfee Advanced Threat Detection
+    - yara
+    - yextend
   Vulnerability Management:
     - Rapid7 Nexpose
     - RedSeal
     - Tenable SecurityCenter
+    - Tenable Nessus
     - MetaSploit Pro
     - PhishMe
     - OpenSCAP
     - SCAP
     - OVAL
+    - NASL
     - XCCDF
+    - nmap
+    - OWASP ZAP
   Crypto:
     - HashiCorip Vault
     - Microsoft Certificate Services
@@ -190,26 +270,42 @@ skills:
     - TPM
     - x509
     - PKI
+    - Kerberos V5 (MIT/heimdal)
   Config Automation:
     - packer
-    - Chef
-    - Ansible
-    - Consul
+    - chef
+    - ansible
+    - consul
+    - consul-template
     - ActiveDirectory Group Policy
-  Languages:
+    - cfengine
+    - kickstart
+    - puppet
+  Languages (in descending order of mastery):
     - Ruby
+    - Shell/Bash
     - Python
     - R
-    - Shell/Bash
+    - SQL
     - PowerShell
     - Go/golang
+    - XPath + XSLT
+    - perl
     - Scala
+    - lua
+    - Cypher
+    - C
+    - SPARQL
+    - tcl
     - JavaScript
+    - VBScript
   Workflow:
     - JIRA
     - SharePoint
     - Confluence
     - HipChat
+    - HuBot
+    - Lita
     - rundeck
     - Stash
     - Bitbucket
@@ -225,6 +321,7 @@ skills:
     - brakeman
     - rubocop
     - capybara
+    - gauntlt
   Data Repositories:
     - MySQL/MariaDB
     - PostgreSQL
@@ -233,15 +330,33 @@ skills:
     - InfluxDB
     - OSISoft PI System
     - Apache ZooKeeper
+    - Oracle 11-12
+    - MongoDB
+    - CouchDB
+    - HBase
+    - Neo4j
+    - Titan
+    - Apache Jena
+    - ActiveDirectory
+    - OpenLDAP
+    - redis
+    - memcached
   Data Pipeline:
     - Apache Kafka
+    - Apache Spark
+    - Apache QPID
     - RabbitMQ
-    - Logstash
+    - logstash
     - Pentaho Data Integration
-    - Flume
-    - Sqoop
-    - Avro
-    - Parquet
+    - flume
+    - sqoop
+    - scalding
+    - avro
+    - parquet
+    - ZeroMQ
+    - Amazon SQS
+    - Apache Tika
+    - Nutch
   Monitoring:
     - Telegraf
     - Kapacitor
@@ -253,6 +368,13 @@ skills:
     - Graphite
     - jolokia
     - jmxtrans
+    - rsyslog
+    - syslog-ng
+    - CEF
+    - Splunk
+    - Graylog2
+    - Filebeats
+    - WBEM
   Web:
     - Apache HTTPD
     - nginx
@@ -260,14 +382,28 @@ skills:
     - squid
     - haproxy
     - traefik
+    - mod_security
+    - ICAP (various implementations)
   Virtualization:
-    - VMWare ESX
     - Docker
     - QEMU
     - KVM
     - OpenStack
     - Vagrant
     - AWS EC2
+    - VMWare ESX
+    - VMWare Workstation
+    - Virtualbox
+  Scheduling-Clustering:
+    - YARNv2
+    - kubernetes
+    - Apache Mesos
+    - Apache Spark
+    - swarm
+    - keepalived
+    - lvs
+    - sidekiq
+    - celery
   Analysis-Visualization:
     - Jupyter
     - Rstudio
@@ -275,17 +411,25 @@ skills:
     - Tableau
     - Pig
     - pandas
-    - scikit-learn
     - shiny
     - grafana
     - kibana
+    - d3.js
+  Machine Learning:
+    - scikit-learn
+    - TensorFlow
+    - weka
+    - vowlpal wabbit
+    - MALLET
+    - SparkML (1.2)
   Compliance:
     - NERC CIP
     - SSAE16
     - NIST SP800-53
     - NIST CyberSecurity Framework
   Operating Systems:
-    - CentOS/RHEL 5-7
+    - Linux (CentOS, RHEL, Ubuntu, Debian)
+    - BPF/eBPF
     - Windows Server 2008/2012
     - macOS
     - OpenBSD
@@ -295,14 +439,27 @@ skills:
     - Arista EOS
     - openvswitch
     - ISC BIND
+    - ISC DHCPD
+    - collins IPAM/DDI
     - AWS Route53
     - InfoBlox DDI
     - wireshark
+    - net-snmp
+    - pmacct
+    - softflowd
   Storage:
+    - lvm
+    - multipathd
+    - mdraid
+    - xfs
+    - Samba
+    - nfsd
+    - Ganesha NFS
     - ceph
     - minio
     - OpenStack Swift
     - AWS S3
+    - Hadoop HDFS
 education:
   - institution: University of Texas at Austin LBJ School of Public Affairs
     program: Global Policy Studies
