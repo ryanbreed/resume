@@ -1,6 +1,7 @@
 resumes = resume.pdf resume.html resume.docx resume.tex resume.md README.md
 covers = cover-*.md cover-*.pdf cover-*.docx cover-*.html
 resume_source = -f markdown_github resume.md
+flavors = sre security architect data shotgun
 
 ifndef DATAFILE
 DATAFILE=data/resume.yaml
@@ -10,6 +11,11 @@ endif
 ifndef JOB_TITLE
 JOB_TITLE=JOBTITLE
 export JOB_TITLE
+endif
+
+ifndef FLAVOR
+FLAVOR=shotgun
+export FLAVOR
 endif
 
 resume : $(resumes)

@@ -33,181 +33,182 @@ experience:
     institution: Electric Reliability Council of Texas (ERCOT)
     responsibilities:
       - text: Individual contributor responsible for engaging business units to develop strategic opportunities for improving grid and market systems while delivering on key security initiatives.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Serve as senior resource in critical security incidents by directing tasking and providing investigation and analytical support as necessary.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Develop novel analytics for security event data. Exploit home-field advantage to degrade adversarial mobility and freedom of action.
-        flavors: []
+        flavors: [shotgun,secops,sre,data]
       - text: Prioritize intelligence collection and analysis projects. Develop strategic plans for threats to critical grid and market systems.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Research and implement emerging technologies for application to business and security challenges.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Perform outreach to public and private sector via ISO/RTO council and DHS CISCP. Engage in public speaking to advocate for electricity sector needs and share information and practices
-        flavors: []
+        flavors: [shotgun,secops,sre,architect]
     accomplishments:
       - text: Automated real-time integration of CMDB, IPAM, access control, and vulnerability data into machine-readable representation of entities, applications, business systems, and infrastructure.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Automated defensive countermeasures. Used model data to safely deploy automated containment, investigation, and other response countermeasures in response to automated threat detection analytics.
-        flavors: []
+        flavors: [shotgun,secops,sre]
       - text: Implemented TAXII endpoint to ingest STIX cyber threat intelligence feeds and propagate indicators to monitoring and control surfaces.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed security testing for Continuous Integration. Used Bamboo to automate Nexpose for vulnerability and baseline assessment. Security findings over a project-specific risk threshold triggered a build failure and intiated response notification chain.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed automated report and security finding distribution. Management reports were automatically updated and reconfigured based on changes to underlying assets and changes in responsible parties.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed Ansible playbooks for CIS benchmarks and Nexpose vulnerabilities. Automated compliance artifact creation and remediation of findings in dev/test environments. Tickets for specific findings were dispatched to responsible parties where human intervention was required.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Implemented ELK stack for monitoring BroIDS, auditd, RSA Netwitness, and ArcSight ESM/Connector logs. Developed custom logstash plugins to enable event ingest from CMDB and ArcSight.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Implemented Telegraf, InfluxDB, and Grafana to translate event data into time series domain for tracking metrics and developing new analytics. Collected system telemetry with telegraf to enable performance analysis.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed scenario and training injects for GridEx III. Developed cyber simulator and ChatOps platform for use during exercise play.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed Big Data test bed. Deployed DataStax Enterprise Cassandra, Hortonworks Hadoop, Apache Spark, GraphLab, Neo4j, and JupyterHub environments loaded with data from IT, market, and grid systems. Developed proof-of-concept analyses showcasing each technology platform for evaluation by business and IT owners
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
   - title: Manager, Critical Infrastructure Security
     d_start: 2009/12
     d_end: 2012/11
     institution: Electric Reliability Council of Texas (ERCOT)
     responsibilities:
       - text: Managed a team of 9 security analysts to cover security operations, monitoring, incident response, compliance controls, and security architecture.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Managed departmental budget, including annual and quarterly forecasting. Developed and presented project proposals for cyber security initiatives.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Provided guidance and oversight in the capital project process to ensure security objectives were incorporated into investment initiatives.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Lead audit response efforts for cyber security control activities in NERC CIP and SAS70 compliance programs.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Managed tasking and tracking to remediate findings from audits and other outside assessments.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Managed employee performance and aligned career development goals with strategic department objectives.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed working threat model for market and grid operations to guide strategic planning.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed, maintained, and exercised Disaster Recovery and Business Continuity plans for cyber security systems.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Contracted outside penetration tests and assessments to proactively identify and remediate security issues in business and IT systems.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Lead participation in public/private partnership projects with DOE and DHS.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Attained SECRET clearance under DHS Private Sector Clearance Program and attended threat briefings as necessary.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
     accomplishments:
       - text: Led implementation of DOE ESNM/CRISP pilot site and participated in program development workshops.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed automated security advisory analysis system to triage, score, and dispatch vendor advisories and vulnerability notifications.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Represented Cybersecurity Department in GridEx II Exercise Play.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Represented Electricity Subsector in classified threat workshops for IC at DOE INL.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
   - title: Lead, Security Operations
     d_start: 2005/12
     d_end: 2009/12
     institution: Electric Reliability Council of Texas (ERCOT)
     responsibilities:
       - text: Performed security monitoring, incident response, and investigations.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Infrastructure design and implementation for SIEM, IPS, IDS, Enterprise Forensics, full-content packet capture, web content filtering, and vulnerability management.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Workflow development for security operations, monitoring, and investigation processes. Developed dashboards, reports, and incident documentation templates. Documented procedures and created reports for compliance controls.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: SIEM content development for automated analysis of security events.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: IDS/IPS signature development to incorporate cyber observables extracted from investigations into real-time monitoring functions.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Perform forensic analysis of incident artifacts and other digital evidence. Develop incident reports and brief management on findings and recommended response actions
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
     accomplishments:
       - text: Deployed 2 major iterations of ArcSight ESM
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Integrated ArcSight ESM with IBM/ISS IPS, Snort NIDS, Tenable Nessus, Windows Events, UNIX/Network/Firewall Syslog, Oracle RDBMS, Microsoft SQL Server and Symantec Antivirus.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed automated analysis tools for decoding malicious javascript extracted from network traffic.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed full-content packet capture and indexing system to extract packet captures indexed on time and IP address.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed management application for BlueCoat site categorization via local policy database
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
   - title: Security Consultant
     d_start: 2003/03
     d_end: 2005/12
     institution: Unisys
     responsibilities:
       - text: Performed security assessments, penetration tests, and risk assessments for clients in the Financial Services, Health Care, Manufacturing, and Public sectors.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Wrote and presented post-engagement reports to clients and provided guidance for addressing findings in line with business objectives.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed labor models and project materials to support pre-sales and standardize engagement delivery across the security practice.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed application penetration test capabilities and assessment framework for other consultants within the practice.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Directed team activities for large assessments and security infrastructure implementation projects.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
     accomplishments:
       - text: Was featured in article for [InformationWeek](http://www.informationweek.com/hack-in-progress/d/d-id/1020652)
+        flavors: [shotgun,secops,sre,architect,data]
   - title: Senior Staff, Security Engineering
     d_start: 2002/06
     d_end: 2003/02
     institution: Zurich Global Assets
     responsibilities:
       - text: Administered local IDS, Firewall, and UNIX systems.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Acted as ZGA divisional representative at Zurich Financial Services Global Information Technology Services activities.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Performed security assessments on ZGA and ZFS infrastructure.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Performed local security monitoring.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Lead global security monitoring team (Dublin, Zurich, Schaumberg, New York, Los Angeles) across ZFS divisions.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Lead the global PKI implementation team
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Lead design and implementation for Security and Network Operations Center for ZGA infrastructure.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
   - title: Technical Services Director
     d_start: 1999/10
     d_end: 2002/06
     institution: ThruPoint
     responsibilities:
       - text: Performed security assessment, penetration test, infrastructure design, and infrastructure implementation projects for clients in Financial Services and Media sectors.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Served as final internal point of escalation for all security consulting technical matters across the company.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Directed security projects for large engagements.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Provided staff skills development assistance for other security consultants.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Design, build, and support in-house security testing lab environment.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
   - title: Security Consultant
     d_start: 1998/10
     d_end: 1999/09
     institution: Security Industries Automation Corporation (SIAC)
     responsibilities:
       - text: Did first shift firewall operations for Gauntlet firewalls on the internal perimeter networks.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Performed start-of-day and end-of-day procedures to ensure continuity of operations for second and third shifts.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Did requirements analysis for business requests and implemented subsequent infrastructure changes.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Performed UNIX system administration tasks to support maintenance activities.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Participated in Y2K readiness preparations for NYSE security infrastructure.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
   - title: Security Consultant
     d_start: 1997/05
     d_end: 1998/09
     institution: Interactive Futures
     responsibilities:
       - text: Performed security assessments for clients in the Media, Legal, and non-profit sector.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Designed and implemented CheckPoint and Gauntlet firewalls for VAR customers.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Designed and implemented Sun Solaris/SPARC systems for VAR customers.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Supported pre-sales discovery and developed written responses to RFP solicitations.
-        flavors: []
+        flavors: [shotgun,secops,sre,architect,data]
 skills:
   Security:
     - ArcSight ESM
