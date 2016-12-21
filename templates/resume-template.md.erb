@@ -28,13 +28,13 @@ end
 ### <%= pos["title"] %>
 ##### *<%= pos["institution"] %>* (<%= date_range(pos) -%>)
 <% pos["responsibilities"].each do |item| %>
-* <%= item %>
+* <%= item['text'] if item['flavors'].include?(ENV['FLAVOR']) %>
 <% end %>
 
 <% if pos.key?('accomplishments') %>
 ##### Accomplishments
 <% pos["accomplishments"].each do |item| %>
-* <%= item %>
+* <%= item['text'] if item['flavors'].include?(ENV['FLAVOR']) %>
 <% end %>
 <% end %>
 
