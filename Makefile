@@ -54,8 +54,8 @@ resume.tex: resume.md
 	  --template=templates/resume-template.latex \
 	  -s -t latex -o resume.tex
 
-README.md : resume.md templates
-	cp resume.md README.md
+README.md : templates
+	FLAVOR=shotgun erubis -f $(DATAFILE) templates/resume-template.md.erb > README.md
 
 covers: cover-data.docx cover-sre.docx cover-security.docx
 
