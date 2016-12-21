@@ -17,10 +17,10 @@ Seasoned professional with 19 years of deep technical experience in architecture
 ### Principal, Critical Infrastructure Security
 ##### *Electric Reliability Council of Texas (ERCOT)* (Nov 2012 - Oct 2016)
 * Engage business units to develop strategic opportunities for improving grid and market systems.
-* Senior incident commander for critical incidents. Mentoring resource for other incidents providing investigation and analytical support as necessary.
-* Develop analytics for security event data. Enrich event processing pipeline to provide more context to operators at decision time.
+* Senior incident commander for critical incidents. Mentoring resource for other incident handlers.
+* Develop enrichment and analysis pipeline for security data to create high quality alerts with rich context.
 * Prioritize intelligence collection and analysis projects. Develop strategic plans for threats to critical grid and market systems.
-* Research, evaluate, and implement emerging technologies for application to business and security challenges.
+* Research and evaluate emerging technologies for application to business and security needs.
 * Perform outreach to public and private sector via ISO/RTO council and DHS CISCP. Engage in public speaking to advocate for electricity sector needs and share information and practices
 
 ##### Accomplishments
@@ -29,11 +29,9 @@ Seasoned professional with 19 years of deep technical experience in architecture
 * Implemented TAXII endpoint to ingest STIX cyber threat intelligence feeds and propagate indicators to monitoring and control surfaces.
 * Developed automated security testing harness for Continuous Integration. Used Bamboo to automate Nexpose for vulnerability and baseline assessment. Security findings over a project-specific risk threshold triggered a build failure and intiated response notification chain.
 * Developed automated report and security finding distribution. Management reports were automatically updated and reconfigured based on changes to underlying assets and changes in responsible parties.
-* 
 * Developed Ansible playbooks for CIS benchmarks and Nexpose vulnerabilities. Automated compliance artifact creation and remediation of findings in dev/test environments. Tickets for specific findings were dispatched to responsible parties where human intervention was required.
 * Implemented ELK stack for monitoring BroIDS, auditd, RSA Netwitness, and ArcSight ESM/Connector logs. Developed custom logstash plugins to enable event ingest from CMDB and ArcSight.
 * Implemented Telegraf, InfluxDB, and Grafana to translate event data into time series domain for tracking metrics and developing new analytics. Collected system telemetry with telegraf to enable performance analysis.
-* 
 * Developed scenario and training injects for GridEx III. Developed cyber simulator and ChatOps platform for use during exercise play.
 * Developed Big Data test bed. Deployed DataStax Enterprise Cassandra, Hortonworks Hadoop, Apache Spark, GraphLab, Neo4j, and JupyterHub environments loaded with data from IT, market, and grid systems. Developed proof-of-concept analyses showcasing each technology platform for evaluation by business and IT owners
 
@@ -116,6 +114,16 @@ Seasoned professional with 19 years of deep technical experience in architecture
 * Supported pre-sales discovery and developed written responses to RFP solicitations.
 
 
+## Awards
+* ERCOT - Team Player Award (Mar 2016)
+* Mercedes AMG Driving Academy - 1st place Team Autocross (Jun 2015)
+* ERCOT - Core Value Award for Expertise (Apr 2014)
+* ERCOT - Team Player Award (Apr 2014)
+* ERCOT - Exceptional Performer Award (Jan 2014)
+* ERCOT - Certificate of Recognition: Principal (Dec 2012)
+* ERCOT - Team Player Award (Jul 2011)
+* Idaho National Laboratory NSTB Advanced SCADA Security Training - Team Captain and Winning Team (Nov 2008)
+
 ## Certifications
 * Completion of Advanced Training - Mercedes AMG Driving Academy (2015)
 * Leadership Skills for Managers Certificate Program - University of Texas at Austin Professional Development Center (2011)
@@ -129,17 +137,10 @@ Seasoned professional with 19 years of deep technical experience in architecture
 * SANS - Identifying and Removing Malware (SANS-537)
 * HP Enterprise - ArcSight ESM 6.5 Security Administrator and Analyst (HPE-00924200)
 
-## Awards
-* ERCOT - Team Player Award (Mar 2016)
-* Mercedes AMG Driving Academy - 1st place Team Autocross (Jun 2015)
-* ERCOT - Core Value Award for Expertise (Apr 2014)
-* ERCOT - Team Player Award (Apr 2014)
-* ERCOT - Exceptional Performer Award (Jan 2014)
-* ERCOT - Certificate of Recognition: Principal (Dec 2012)
-* ERCOT - Team Player Award (Jul 2011)
-* Idaho National Laboratory NSTB Advanced SCADA Security Training - Team Captain and Winning Team (Nov 2008)
-
 ## Skills
+- **Languages (descending by mastery)**
+  Ruby, Shell (Bash), Python, R, SQL, PowerShell, Go, tcl, perl, C, Scala, JavaScript, XPath/XSLT, Cypher, SPARQL, VBScript, lua
+
 - **Security**
   ArcSight ESM, ArcSight Logger, ArcSight Connectors, ArcSight Management Center, Bro IDS, McAfee Network Security Platform, SourceFire IPS, Suricata IDS, RSA Security Analytics, Netwitness, Carbon Black Protection (Bit9 Parity), AppLocker, SILK, argus, Gigamon, SELinux, snort, mod_security
 
@@ -155,9 +156,6 @@ Seasoned professional with 19 years of deep technical experience in architecture
 - **Config Automation**
   packer, chef, ansible, consul, consul-template, ActiveDirectory Group Policy, cfengine, kickstart, puppet
 
-- **Languages (descending by mastery)**
-  Ruby, Shell/Bash, Python, R, SQL, PowerShell, XPath + XSLT, Go/golang, tcl, perl, C, Scala, JavaScript, lua, Cypher, SPARQL, VBScript
-
 - **Workflow, Testing**
   JIRA, SharePoint, Confluence, HipChat, HuBot, Lita, rundeck, Stash, Bitbucket, git, jenkins, TravisCI, Bamboo, selenium, cucumber, rspec, serverspec, brakeman, rubocop, capybara, gauntlt
 
@@ -168,13 +166,13 @@ Seasoned professional with 19 years of deep technical experience in architecture
   Apache Kafka, Apache Spark, Apache QPID, RabbitMQ, logstash, Pentaho Data Integration, flume, sqoop, scalding, avro, parquet, ZeroMQ, Amazon SQS, Apache Tika, Nutch
 
 - **Monitoring**
-  Telegraf, Kapacitor, Zabbix, Nagios, CollectD, DiamonD, StatsD, Graphite, jolokia, jmxtrans, rsyslog, syslog-ng, CEF, Splunk, Graylog2, Filebeats, WBEM
+  Telegraf, Kapacitor, Zabbix, Nagios, CollectD, DiamonD, StatsD, Graphite, jolokia, jmxtrans, rsyslog, syslog-ng, CEF, Splunk, Graylog2, Filebeats, WBEM, WMI, WQL
 
 - **Web**
-  Apache HTTPD, nginx, varnish cache, squid, haproxy, traefik, mod_security, mod_proxy, mod_rewrite, mod_ssl, ICAP
+  Apache HTTPD, nginx, varnish cache, squid, haproxy, traefik, mod_security, mod_proxy, mod_rewrite, mod_ssl, F5 LTM, ICAP
 
 - **Virtualization**
-  Docker, QEMU, KVM, OpenStack, Vagrant, AWS EC2, VMWare ESX, VMWare Workstation, Virtualbox
+  Docker, QEMU, KVM, OpenStack, Vagrant, AWS EC2, Google GCE, VMWare ESX, VMWare Workstation, Virtualbox
 
 - **Scheduling, Clustering**
   YARNv2, kubernetes, Apache Mesos, Apache Spark, swarm, keepalived, lvs, sidekiq, celery

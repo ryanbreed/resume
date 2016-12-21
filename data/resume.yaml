@@ -34,13 +34,13 @@ experience:
     responsibilities:
       - text: Engage business units to develop strategic opportunities for improving grid and market systems.
         flavors: [shotgun,secops,sre,architect,data]
-      - text: Senior incident commander for critical incidents. Mentoring resource for other incidents providing investigation and analytical support as necessary.
+      - text: Senior incident commander for critical incidents. Mentoring resource for other incident handlers.
         flavors: [shotgun,secops,sre,architect,data]
-      - text: Develop analytics for security event data. Enrich event processing pipeline to provide more context to operators at decision time.
+      - text: Develop enrichment and analysis pipeline for security data to create high quality alerts with rich context.
         flavors: [shotgun,secops,sre,data]
       - text: Prioritize intelligence collection and analysis projects. Develop strategic plans for threats to critical grid and market systems.
         flavors: [shotgun,secops,architect,data]
-      - text: Research, evaluate, and implement emerging technologies for application to business and security challenges.
+      - text: Research and evaluate emerging technologies for application to business and security needs.
         flavors: [shotgun,secops,sre,architect,data]
       - text: Perform outreach to public and private sector via ISO/RTO council and DHS CISCP. Engage in public speaking to advocate for electricity sector needs and share information and practices
         flavors: [shotgun,secops,architect]
@@ -52,17 +52,25 @@ experience:
       - text: Implemented TAXII endpoint to ingest STIX cyber threat intelligence feeds and propagate indicators to monitoring and control surfaces.
         flavors: [shotgun,secops,architect,data]
       - text: Developed automated security testing harness for Continuous Integration. Used Bamboo to automate Nexpose for vulnerability and baseline assessment. Security findings over a project-specific risk threshold triggered a build failure and intiated response notification chain.
-        flavors: [shotgun,secops,sre,architect,data]
+        flavors: [shotgun,secops]
+      - text: Developed automated security testing harness for Continuous Integration. Used Bamboo to automate Nexpose for vulnerability and baseline assessment of CentOS7 image creation pipeline.
+        flavors: [sre,architect]
       - text: Developed automated report and security finding distribution. Management reports were automatically updated and reconfigured based on changes to underlying assets and changes in responsible parties.
         flavors: [shotgun,secops,architect,data]
-      - text: Developed Ansible playbook generation tool to automatically create CIS benchmark security hardening tasks from OVAL XML specifications. Generated tasks handled both compliance measurement and remediation while creating governance artifacts and documentation.
+      - text: Developed Ansible playbook generation tool to create CIS hardening tasks from OVAL XML.
         flavors: [sre]
       - text: Developed Ansible playbooks for CIS benchmarks and Nexpose vulnerabilities. Automated compliance artifact creation and remediation of findings in dev/test environments. Tickets for specific findings were dispatched to responsible parties where human intervention was required.
         flavors: [shotgun,secops,architect,data]
       - text: Implemented ELK stack for monitoring BroIDS, auditd, RSA Netwitness, and ArcSight ESM/Connector logs. Developed custom logstash plugins to enable event ingest from CMDB and ArcSight.
-        flavors: [shotgun,secops,sre,architect,data]
+        flavors: [shotgun,secops,architect,data]
+      - text: Implemented ELK stack for monitoring open source security stack and CMDB model integration. Configured exception and error reporting for critical production components to ensure relevant information was captured, timestamped and indexed.
+        flavors: [sre]
+      - text: Implemented InfluxDB and Grafana to capture and visualize time series data.
+        flavors: [sre,data]
+      - text: Deployed telegraf to collect OS, shared service, and application-level telemetry. Used logstash and telegraf to translate event data into time series domain.
+        flavors: [sre,data]
       - text: Implemented Telegraf, InfluxDB, and Grafana to translate event data into time series domain for tracking metrics and developing new analytics. Collected system telemetry with telegraf to enable performance analysis.
-        flavors: [shotgun,secops,sre,architect,data]
+        flavors: [shotgun,secops,architect,data]
       - text: Developed scenario and training injects for interactive incident response tabletop exercise. Built full-scale simulator with realistic telemetry and event data with integrated ChatOps platform.
         flavors: [sre]
       - text: Developed scenario and training injects for GridEx III. Developed cyber simulator and ChatOps platform for use during exercise play.
@@ -204,6 +212,24 @@ experience:
       - text: Supported pre-sales discovery and developed written responses to RFP solicitations.
         flavors: [shotgun,secops,sre,architect,data]
 skills:
+  Languages (descending by mastery):
+    - Ruby
+    - Shell (Bash)
+    - Python
+    - R
+    - SQL
+    - PowerShell
+    - Go
+    - tcl
+    - perl
+    - C
+    - Scala
+    - JavaScript
+    - XPath/XSLT
+    - Cypher
+    - SPARQL
+    - VBScript
+    - lua
   Security:
     - ArcSight ESM
     - ArcSight Logger
@@ -276,24 +302,6 @@ skills:
     - cfengine
     - kickstart
     - puppet
-  Languages (descending by mastery):
-    - Ruby
-    - Shell/Bash
-    - Python
-    - R
-    - SQL
-    - PowerShell
-    - XPath + XSLT
-    - Go/golang
-    - tcl
-    - perl
-    - C
-    - Scala
-    - JavaScript
-    - lua
-    - Cypher
-    - SPARQL
-    - VBScript
   Workflow, Testing:
     - JIRA
     - SharePoint
@@ -369,6 +377,8 @@ skills:
     - Graylog2
     - Filebeats
     - WBEM
+    - WMI
+    - WQL
   Web:
     - Apache HTTPD
     - nginx
@@ -380,6 +390,7 @@ skills:
     - mod_proxy
     - mod_rewrite
     - mod_ssl
+    - F5 LTM
     - ICAP
   Virtualization:
     - Docker
@@ -388,6 +399,7 @@ skills:
     - OpenStack
     - Vagrant
     - AWS EC2
+    - Google GCE
     - VMWare ESX
     - VMWare Workstation
     - Virtualbox
