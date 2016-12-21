@@ -80,6 +80,8 @@ experience:
         flavors: [shotgun,secops,sre,architect,data]
       - text: Managed departmental budget, including annual and quarterly forecasting. Developed and presented project proposals for cyber security initiatives.
         flavors: [shotgun,secops,sre,architect,data]
+      - text: Lead audit response efforts for cyber security control activities in NERC CIP and SAS70 compliance programs.
+        flavors: [shotgun,secops,sre,architect,data]
       - text: Developed working threat model for market and grid operations to guide strategic planning.
         flavors: [shotgun,secops,sre,architect,data]
       - text: Developed, maintained, and exercised Disaster Recovery and Business Continuity plans for cyber security systems.
