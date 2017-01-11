@@ -36,7 +36,7 @@ experience:
         flavors: [shotgun,secops,sre,architect,data]
       - text: Senior incident commander for critical incidents. Mentoring resource for other incident handlers.
         flavors: [shotgun,secops,sre,architect,data]
-      - text: Develop enrichment and analysis pipeline for security data to create high quality alerts with rich context.
+      - text: Develop security data pipeline to enrich events and create accurate incident alerts with context.
         flavors: [shotgun,secops,sre,data]
       - text: Prioritize intelligence collection and analysis projects. Develop strategic plans for threats to critical grid and market systems.
         flavors: [shotgun,secops,architect,data]
@@ -49,27 +49,23 @@ experience:
         flavors: [shotgun,secops,sre,architect,data]
       - text: Automated defensive countermeasures. Used model data to safely deploy automated containment, investigation, and other response actions from monitoring system.
         flavors: [shotgun,secops,sre]
-      - text: Implemented TAXII endpoint to ingest STIX cyber threat intelligence feeds and propagate indicators to monitoring and control surfaces.
+      - text: Implemented TAXII endpoint to ingest STIX and propagate indicators to control surfaces.
         flavors: [shotgun,secops,architect,data]
-      - text: Developed automated security testing harness for Continuous Integration. Used Bamboo to automate Nexpose for vulnerability and baseline assessment. Security findings over a project-specific risk threshold triggered a build failure and intiated response notification chain.
+      - text: Developed automated security testing harness for Continuous Integration with Bamboo and Nexpose.
         flavors: [shotgun,secops]
       - text: Developed automated security testing harness for Continuous Integration. Used Bamboo to automate Nexpose for vulnerability and baseline assessment of CentOS7 image creation pipeline.
         flavors: [sre,architect]
-      - text: Developed automated report and security finding distribution. Management reports were automatically updated and reconfigured based on changes to underlying assets and changes in responsible parties.
+      - text: Automated vulnerability report definition and distribution. New infrastructure or changes in responsibility triggered reconfiguration of management reports.
         flavors: [shotgun,secops,architect,data]
       - text: Developed Ansible playbook generation tool to create CIS hardening tasks from OVAL XML.
-        flavors: [sre]
-      - text: Developed Ansible playbooks for CIS benchmarks and Nexpose vulnerabilities. Automated compliance artifact creation and remediation of findings in dev/test environments. Tickets for specific findings were dispatched to responsible parties where human intervention was required.
+        flavors: [sre,secops,shotgun]
+      - text: Implemented ELK stack to monitor SIEM, log collector, and sensor logs. Developed logstash plugins to ingest CMDB and ArcSight model data.
         flavors: [shotgun,secops,architect,data]
-      - text: Implemented ELK stack for monitoring BroIDS, auditd, RSA Netwitness, and ArcSight ESM/Connector logs. Developed custom logstash plugins to enable event ingest from CMDB and ArcSight.
-        flavors: [shotgun,secops,architect,data]
-      - text: Implemented ELK stack for monitoring open source security stack and CMDB model integration. Configured exception and error reporting for critical production components to ensure relevant information was captured, timestamped and indexed.
-        flavors: [sre]
       - text: Implemented InfluxDB and Grafana to capture and visualize time series data.
         flavors: [sre,data]
       - text: Deployed telegraf to collect OS, shared service, and application-level telemetry. Used logstash and telegraf to translate event data into time series domain.
         flavors: [sre,data]
-      - text: Implemented Telegraf, InfluxDB, and Grafana to translate event data into time series domain for tracking metrics and developing new analytics. Collected system telemetry with telegraf to enable performance analysis.
+      - text: Implemented Telegraf, InfluxDB, and Grafana for metrics, system telemetry, and time series analytics. 
         flavors: [shotgun,secops,architect,data]
       - text: Developed scenario and training injects for interactive incident response tabletop exercise. Built full-scale simulator with realistic telemetry and event data with integrated ChatOps platform.
         flavors: [sre]
@@ -82,26 +78,28 @@ experience:
     d_end: 2012/11
     institution: Electric Reliability Council of Texas (ERCOT)
     responsibilities:
-      - text: Managed a team of 9 security analysts to cover security operations, monitoring, incident response, compliance controls, and security architecture.
+      - text: Managed a team of 9 analysts covering monitoring, incident response, compliance, and architecture.
         flavors: [shotgun,secops,sre,architect,data]
-      - text: Managed employee performance and aligned career development goals with strategic department objectives.
+      - text: Managed employee performance and aligned development goals with strategic department objectives.
         flavors: [shotgun,secops,sre,architect,data]
-      - text: Managed departmental budget, including annual and quarterly forecasting. Developed and presented project proposals for cyber security initiatives.
+      - text: Developed and presented project proposals for cyber security capital investments.
         flavors: [shotgun,secops,sre,architect,data]
-      - text: Lead audit response efforts for cyber security control activities in NERC CIP and SAS70 compliance programs.
+      - text: Managed departmental budget, including annual and quarterly forecasting. 
+        flavors: [shotgun,secops,sre,architect,data]
+      - text: Lead audit response efforts for security control activities in NERC CIP and SAS70 compliance programs.
         flavors: [shotgun,secops,sre,architect,data]
       - text: Developed working threat model for market and grid operations to guide strategic planning.
         flavors: [shotgun,secops,sre,architect,data]
-      - text: Developed, maintained, and exercised Disaster Recovery and Business Continuity plans for cyber security systems.
+      - text: Developed, maintained, and exercised Disaster Recovery and Business Continuity plans.
         flavors: [shotgun,secops,sre,architect,data]
       - text: Lead participation in public/private partnership projects with DOE and DHS.
         flavors: [shotgun,secops,architect,data]
-      - text: Attained SECRET clearance under DHS Private Sector Clearance Program and attended threat briefings as necessary.
+      - text: Attained SECRET clearance under DHS Private Sector Clearance Program and attended threat briefings.
         flavors: [shotgun,secops,sre,architect,data]
     accomplishments:
-      - text: Led implementation of DOE ESNM/CRISP pilot site and participated in program development workshops.
+      - text: Implemented DOE ESNM/CRISP pilot sensors and participated in program development workshops.
         flavors: [shotgun,secops,sre,architect,data]
-      - text: Developed automated security advisory analysis system to triage, score, and dispatch vendor advisories and vulnerability notifications.
+      - text: Developed automated advisory analysis system to triage and dispatch vendor security advisories.
         flavors: [shotgun,secops,architect,data]
       - text: Represented Cybersecurity Department in GridEx II Exercise Play.
         flavors: [shotgun,secops,architect,data]
