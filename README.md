@@ -18,7 +18,7 @@ Seasoned professional with 19 years of deep technical experience in architecture
 ##### *Electric Reliability Council of Texas (ERCOT)* (Nov 2012 - Oct 2016)
 * Engage business units to develop strategic opportunities for improving grid and market systems.
 * Senior incident commander for critical incidents. Mentoring resource for other incident handlers.
-* Develop enrichment and analysis pipeline for security data to create high quality alerts with rich context.
+* Develop security data pipeline to enrich events and create accurate incident alerts with context.
 * Prioritize intelligence collection and analysis projects. Develop strategic plans for threats to critical grid and market systems.
 * Research and evaluate emerging technologies for application to business and security needs.
 * Perform outreach to public and private sector via ISO/RTO council and DHS CISCP. Engage in public speaking to advocate for electricity sector needs and share information and practices
@@ -26,29 +26,30 @@ Seasoned professional with 19 years of deep technical experience in architecture
 ##### Accomplishments
 * Automated real-time integration of CMDB, IPAM, access control, and vulnerability data into machine-readable representation of entities, applications, business systems, and infrastructure.
 * Automated defensive countermeasures. Used model data to safely deploy automated containment, investigation, and other response actions from monitoring system.
-* Implemented TAXII endpoint to ingest STIX cyber threat intelligence feeds and propagate indicators to monitoring and control surfaces.
-* Developed automated security testing harness for Continuous Integration. Used Bamboo to automate Nexpose for vulnerability and baseline assessment. Security findings over a project-specific risk threshold triggered a build failure and intiated response notification chain.
-* Developed automated report and security finding distribution. Management reports were automatically updated and reconfigured based on changes to underlying assets and changes in responsible parties.
-* Developed Ansible playbooks for CIS benchmarks and Nexpose vulnerabilities. Automated compliance artifact creation and remediation of findings in dev/test environments. Tickets for specific findings were dispatched to responsible parties where human intervention was required.
-* Implemented ELK stack for monitoring BroIDS, auditd, RSA Netwitness, and ArcSight ESM/Connector logs. Developed custom logstash plugins to enable event ingest from CMDB and ArcSight.
-* Implemented Telegraf, InfluxDB, and Grafana to translate event data into time series domain for tracking metrics and developing new analytics. Collected system telemetry with telegraf to enable performance analysis.
+* Implemented TAXII endpoint to ingest STIX and propagate indicators to control surfaces.
+* Developed automated security testing harness for Continuous Integration with Bamboo and Nexpose.
+* Automated vulnerability report definition and distribution. New infrastructure or changes in responsibility triggered reconfiguration of management reports.
+* Developed Ansible playbook generation tool to create CIS hardening tasks from OVAL XML.
+* Implemented ELK stack to monitor SIEM, log collector, and sensor logs. Developed logstash plugins to ingest CMDB and ArcSight model data.
+* Implemented Telegraf, InfluxDB, and Grafana for metrics, system telemetry, and time series analytics.
 * Developed scenario and training injects for GridEx III. Developed cyber simulator and ChatOps platform for use during exercise play.
 * Developed Big Data test bed. Deployed DataStax Enterprise Cassandra, Hortonworks Hadoop, Apache Spark, GraphLab, Neo4j, and JupyterHub environments loaded with data from IT, market, and grid systems. Developed proof-of-concept analyses showcasing each technology platform for evaluation by business and IT owners
 
 ### Manager, Critical Infrastructure Security
 ##### *Electric Reliability Council of Texas (ERCOT)* (Dec 2009 - Nov 2012)
-* Managed a team of 9 security analysts to cover security operations, monitoring, incident response, compliance controls, and security architecture.
-* Managed employee performance and aligned career development goals with strategic department objectives.
-* Managed departmental budget, including annual and quarterly forecasting. Developed and presented project proposals for cyber security initiatives.
-* Lead audit response efforts for cyber security control activities in NERC CIP and SAS70 compliance programs.
+* Managed a team of 9 analysts covering monitoring, incident response, compliance, and architecture.
+* Managed employee performance and aligned development goals with strategic department objectives.
+* Developed and presented project proposals for cyber security capital investments.
+* Managed departmental budget, including annual and quarterly forecasting.
+* Lead audit response efforts for security control activities in NERC CIP and SAS70 compliance programs.
 * Developed working threat model for market and grid operations to guide strategic planning.
-* Developed, maintained, and exercised Disaster Recovery and Business Continuity plans for cyber security systems.
+* Developed, maintained, and exercised Disaster Recovery and Business Continuity plans.
 * Lead participation in public/private partnership projects with DOE and DHS.
-* Attained SECRET clearance under DHS Private Sector Clearance Program and attended threat briefings as necessary.
+* Attained SECRET clearance under DHS Private Sector Clearance Program and attended threat briefings.
 
 ##### Accomplishments
-* Led implementation of DOE ESNM/CRISP pilot site and participated in program development workshops.
-* Developed automated security advisory analysis system to triage, score, and dispatch vendor advisories and vulnerability notifications.
+* Implemented DOE ESNM/CRISP pilot sensors and participated in program development workshops.
+* Developed automated advisory analysis system to triage and dispatch vendor security advisories.
 * Represented Cybersecurity Department in GridEx II Exercise Play.
 * Represented Electricity Subsector in classified threat workshops for IC at DOE INL.
 
