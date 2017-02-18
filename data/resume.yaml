@@ -233,6 +233,9 @@ skills:
     - tcl
     - perl
     - C
+    - x86 asm
+    - cBPF asm
+    - eBPF asm
     - Scala
     - JavaScript
     - XPath/XSLT
@@ -245,20 +248,19 @@ skills:
     - ArcSight Logger
     - ArcSight Connectors
     - ArcSight Management Center
-    - Bro IDS
     - McAfee Network Security Platform
-    - SourceFire IPS
-    - Suricata IDS
+    - Cisco FirePOWER IPS (SourceFire)
     - RSA Security Analytics
     - Netwitness
     - Carbon Black Protection (Bit9 Parity)
+    - ForeScout CounterAct
     - AppLocker
-    - SILK
-    - argus
     - Gigamon
     - SELinux
-    - snort
-    - mod_security
+    - auditd
+    - snort IDS
+    - Suricata IDS
+    - Bro IDS
   DF-IR:
     - Volatility Framework
     - plaso
@@ -269,15 +271,24 @@ skills:
     - EnCase
     - F-Response
     - Carbon Black Response
-    - Soltra Edge
     - STIX
     - CybOx
     - TAXII
     - OpenIOC
-    - Cuckoo Sandbox
-    - McAfee Advanced Threat Detection
     - yara
     - yextend
+    - MISP
+    - Soltra Edge
+    - CRITS
+    - Viper Framework
+  Reverse Engineering:
+    - Cuckoo Sandbox
+    - McAfee ATD (Advanced Threat Detection)
+    - Capstone Engine
+    - Unicorn CPU Emulator
+    - KLEE
+    - CFR Java Decompiler
+    - ViperMonkey VBA Parser
   Vulnerability Management:
     - Rapid7 Nexpose
     - RedSeal
@@ -397,6 +408,7 @@ skills:
     - haproxy
     - traefik
     - mod_security
+    - OWASP CRS3 (ModSecurity Core Rule Set)
     - mod_proxy
     - mod_rewrite
     - mod_ssl
@@ -448,7 +460,6 @@ skills:
     - NIST CyberSecurity Framework
   Operating Systems:
     - Linux (CentOS, RHEL, Ubuntu, Debian)
-    - BPF/eBPF
     - Windows Server 2008/2012
     - macOS
     - OpenBSD
@@ -463,6 +474,8 @@ skills:
     - Cisco IOS
     - Arista EOS
     - openvswitch
+    - BPF/eBPF
+    - P4
     - ISC BIND
     - ISC DHCPD
     - collins IPAM/DDI
