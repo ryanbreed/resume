@@ -3,9 +3,16 @@ require 'date'
 YM_FORMAT='%b %Y'
 
 def date_range(position)
-  s = DateTime.parse(position['d_start'])
-  e = DateTime.parse(position['d_end'])
-  format("%s - %s", s.strftime(YM_FORMAT), e.strftime(YM_FORMAT) )
+  s_dt = DateTime.parse(position['d_start'])
+  s_fmt = s_dt.strftime(YM_FORMAT)
+  e_fmt = if position.key?('d_end')
+    e_dt = DateTime.parse(position['d_end'])
+    e_dt.strftime(YM_FORMAT)
+  else
+    '_Present_'
+  end
+  
+  format("%s - %s", s_fmt, e_fmt)
 end
 
 def accomplishments(position, flavor=ENV['FLAVOR'])

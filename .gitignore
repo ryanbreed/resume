@@ -1,4 +1,9 @@
 ## Core latex/pdflatex auxiliary files:
+resume_Ryan_Breed_*.pdf
+resume_Ryan_Breed_*.docx
+resume_Ryan_Breed_*.html
+
+**/.*.sw[a-z]
 
 *.aux
 *.lof

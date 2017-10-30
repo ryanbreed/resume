@@ -31,6 +31,38 @@ contact:
     display: linkedin.com/in/ryanbreed
     link: https://www.linkedin.com/in/ryanbreed
 experience:
+  - title: CTO, Director of Mayhem
+    d_start: 2013/05
+    institution: Cascade Failure, inc.
+    responsibilities:
+      - text: Develop services products for consulting engagements in Critical Infrastructure and Information and Innovation Sectors
+        flavors: [shotgun,secops,sre,architect,data,endpoint]
+      - text: Market service products, track sales, and manage P&L forecasts
+        flavors: [shotgun,secops,sre,architect,data,endpoint]
+      - text: Conduct and present original research in Complex Systems Failures
+        flavors: [shotgun,secops,sre,architect]
+    accomplishments:
+      - text: Participate in ODNI-sponsored DHS Public-Private Analytic Exchange Program (2017, Community Resilience - FEMA agency champion)
+        flavors: [shotgun,secops,sre,architect]
+  - title: Principal Security Content Engineer
+    d_start: 2017/02
+    institution: Alert Logic, inc.
+    responsibilities:
+      - text: Process intelligence and research reports on emerging threats and implement detection content across product platforms
+        flavors: [shotgun,secops,sre,architect,data,endpoint]
+      - text: Implement workflow support and CI/CD pipelines for security content across customer product platforms
+        flavors: [shotgun,secops,sre,architect,data,endpoint]
+      - text: Analyze customer data to identify and implement enhancements to detection and other content
+        flavors: [shotgun,secops,sre,architect]
+      - Implement tooling to automate harvesting of exploit samples from public datasets and creation of detection content in the Threat Manager platform
+        flavors: [shotgun,secops,sre,data,endpoint,architect]
+    accomplishments:
+      - text: Presented "Advanced Snort Authoring and Detection Internals" workshop to Cloud Austin meetup
+        flavors: [shotgun,secops,sre,architect]
+      - text: Developed `antigravity-gun` data warehouse tool to facilitate searches through customer data in Redshift/S3 and create analyst-ready output in pcap and other structured formats
+        flavors: [shotgun,secops,sre,architect,data]
+
+   
   - title: Principal, Critical Infrastructure Security
     d_start: 2012/11
     d_end: 2016/10
