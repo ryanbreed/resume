@@ -54,7 +54,7 @@ experience:
         flavors: [shotgun,secops,sre,architect,data,endpoint]
       - text: Analyze customer data to identify and implement enhancements to detection and other content
         flavors: [shotgun,secops,sre,architect]
-      - Implement tooling to automate harvesting of exploit samples from public datasets and creation of detection content in the Threat Manager platform
+      - text: Implement tooling to automate harvesting of exploit samples from public datasets and creation of detection content in the Threat Manager platform
         flavors: [shotgun,secops,sre,data,endpoint,architect]
     accomplishments:
       - text: Presented "Advanced Snort Authoring and Detection Internals" workshop to Cloud Austin meetup
