@@ -1,4 +1,4 @@
-overview: Seasoned professional with 19 years of deep technical experience in architecture, monitoring, incident response, application security, and penetration testing. I have a keen interest in practical applications of large-scale data analysis, automation, and organizational resilience. I also have practical experience developing cooperative intelligence sharing partnerships with both public and private sector entities.
+overview: Seasoned professional with 20 years of deep technical experience in architecture, monitoring, incident response, application security, and penetration testing. I have a keen interest in practical applications of large-scale data analysis, automation, and organizational resilience. I also have practical experience developing cooperative intelligence sharing partnerships with both public and private sector entities.
 cover:
   - flavor: endpoint
     text: |
@@ -31,6 +31,34 @@ contact:
     display: linkedin.com/in/ryanbreed
     link: https://www.linkedin.com/in/ryanbreed
 experience:
+  - title: Principal Security Content Engineer
+    d_start: 2017/02
+    institution: Alert Logic, inc.
+    responsibilities:
+      - text: Process intelligence and research reports on emerging threats and implement detection content across product platforms
+        flavors: [shotgun,secops,sre,architect,data,endpoint]
+      - text: Triage incoming Threat Intelligence reports to ensure quality and accuracy for content team
+        flavors: [shotgun,secops,sre,architect,data,endpoint]
+      - text: Work with Product and Engineering teams to specify new features for product platforms to enhance detection capabilities and ensure operational stability
+        flavors: [shotgun,secops,sre,data,endpoint,architect]
+      - text: Exercise operations processes to deploy new security content to customer and production environments and identify opportunities for automation and stability enhancements
+        flavors: [shotgun,secops,sre,data,endpoint,architect]
+      - text: Implement workflow support and CI/CD pipelines for security content across customer product platforms
+        flavors: [shotgun,secops,sre,architect,data,endpoint]
+      - text: Implement tooling to automate harvesting of exploit samples from public datasets and creation of detection content in the Threat Manager platform
+        flavors: [shotgun,secops,sre,data,endpoint,architect]
+      - text: Instrument and monitor production security content across product suite and customer sensor platforms
+        flavors: [shotgun,secops,sre,architect]
+      - text: Analyze customer data to identify underperforming content and implement enhancements to increase effectiveness or reduce false positive alerting
+        flavors: [shotgun,secops,sre,architect]
+      - text: Develop novel analytics to identify threat actor activity and reprocess customer data to expand campaign pursuit
+        flavors: [shotgun,secops,sre,data,endpoint,architect]
+    accomplishments:
+      - text: Presented "Advanced Snort Authoring and Detection Internals" workshop to Cloud Austin meetup
+        flavors: [shotgun,secops,sre,architect]
+      - text: Developed `antigravity-gun` data warehouse tool to facilitate searches through customer data in Redshift/S3 and create analyst-ready output in pcap and other structured formats
+        flavors: [shotgun,secops,sre,architect,data]
+
   - title: CTO, Director of Mayhem
     d_start: 2013/05
     institution: Cascade Failure, inc.
@@ -44,25 +72,7 @@ experience:
     accomplishments:
       - text: Participate in ODNI-sponsored DHS Public-Private Analytic Exchange Program (2017, Community Resilience - FEMA agency champion)
         flavors: [shotgun,secops,sre,architect]
-  - title: Principal Security Content Engineer
-    d_start: 2017/02
-    institution: Alert Logic, inc.
-    responsibilities:
-      - text: Process intelligence and research reports on emerging threats and implement detection content across product platforms
-        flavors: [shotgun,secops,sre,architect,data,endpoint]
-      - text: Implement workflow support and CI/CD pipelines for security content across customer product platforms
-        flavors: [shotgun,secops,sre,architect,data,endpoint]
-      - text: Analyze customer data to identify and implement enhancements to detection and other content
-        flavors: [shotgun,secops,sre,architect]
-      - text: Implement tooling to automate harvesting of exploit samples from public datasets and creation of detection content in the Threat Manager platform
-        flavors: [shotgun,secops,sre,data,endpoint,architect]
-    accomplishments:
-      - text: Presented "Advanced Snort Authoring and Detection Internals" workshop to Cloud Austin meetup
-        flavors: [shotgun,secops,sre,architect]
-      - text: Developed `antigravity-gun` data warehouse tool to facilitate searches through customer data in Redshift/S3 and create analyst-ready output in pcap and other structured formats
-        flavors: [shotgun,secops,sre,architect,data]
 
-   
   - title: Principal, Critical Infrastructure Security
     d_start: 2012/11
     d_end: 2016/10
@@ -313,20 +323,26 @@ skills:
     - Soltra Edge
     - CRITS
     - Viper Framework
+    - Unfetter Analytic
   Reverse Engineering:
     - Cuckoo Sandbox
     - McAfee ATD (Advanced Threat Detection)
     - Capstone Engine
     - Unicorn CPU Emulator
     - KLEE
-    - CFR Java Decompiler
     - ViperMonkey VBA Parser
+    - Kaitai Struct
+    - radare2
+    - CFR Java Decompiler
+    - bytecode-viewer
+    - origami pdf
   Vulnerability Management:
     - Rapid7 Nexpose
     - RedSeal
     - Tenable SecurityCenter
     - Tenable Nessus
     - MetaSploit Pro
+    - Burpsuite Pro
     - PhishMe
     - OpenSCAP
     - SCAP
@@ -365,7 +381,6 @@ skills:
     - HuBot
     - Lita
     - rundeck
-    - Stash
     - Bitbucket
     - git
     - jenkins
@@ -410,6 +425,7 @@ skills:
     - RabbitMQ
     - logstash
     - Pentaho Data Integration
+    - dap
     - avro
     - parquet
     - ZeroMQ
@@ -421,6 +437,7 @@ skills:
     - Kapacitor
     - Zabbix
     - Nagios
+    - DataDog
     - CollectD
     - DiamonD
     - StatsD
@@ -502,6 +519,7 @@ skills:
     - SSAE16
     - NIST SP800-53
     - NIST CyberSecurity Framework
+    - PCI DSS
   Operating Systems:
     - Linux (CentOS, RHEL, Ubuntu, Debian)
     - Windows Server 2008/2012
@@ -519,9 +537,11 @@ skills:
     - Arista EOS
     - openvswitch
     - BPF/eBPF
-    - P4
     - ISC BIND
     - ISC DHCPD
+    - ISC KEA
+    - Ubiquiti UniFi
+    - Ubiquiti EdgeOS
     - collins IPAM/DDI
     - Amazon Route53
     - Amazon VPC
@@ -530,7 +550,7 @@ skills:
     - net-snmp
     - pmacct
     - softflowd
-    - nfcapd
+    - Guacamole
   Storage:
     - lvm
     - multipathd
