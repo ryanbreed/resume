@@ -54,10 +54,17 @@ experience:
       - text: Develop novel analytics to identify threat actor activity and reprocess customer data to expand campaign pursuit
         flavors: [shotgun,secops,sre,data,endpoint,architect]
     accomplishments:
+      - text: Developed cloudformation-based infrastructure deployment to migrate content release certification environment for core analytics application from legacy VMWare/datacenter to AWS
+        flavors: [shotgun,secops,sre,architect]
+      - text: Implemented automated deployment for content analyst infrastructure to AWS with ansible
+        flavors: [shotgun,secops,sre,architect]
       - text: Presented "Advanced Snort Authoring and Detection Internals" workshop to Cloud Austin meetup
         flavors: [shotgun,secops,sre,architect]
       - text: Developed `antigravity-gun` data warehouse tool to facilitate searches through customer data in Redshift/S3 and create analyst-ready output in pcap and other structured formats
         flavors: [shotgun,secops,sre,architect,data]
+      - text: Developed Docker/ECS-based container infrastructure to test proprietary detection content across multiple IDS platforms
+        flavors: [shotgun,secops,sre,architect,data]
+
 
   - title: CTO, Director of Mayhem
     d_start: 2013/05
