@@ -278,16 +278,15 @@ skills:
     - R
     - SQL
     - PowerShell
+    - XPath/XSLT
+    - JMESPath
     - Go
-    - tcl
-    - perl
     - C
     - x86 asm
     - cBPF asm
-    - eBPF asm
+    - eBPF C/asm
     - Scala
     - JavaScript
-    - XPath/XSLT
     - Cypher
     - SPARQL
     - VBScript
@@ -297,19 +296,17 @@ skills:
     - ArcSight Logger
     - ArcSight Connectors
     - ArcSight Management Center
-    - McAfee Network Security Platform
-    - Cisco FirePOWER IPS (SourceFire)
-    - RSA Security Analytics
-    - Netwitness
-    - Carbon Black Protection (Bit9 Parity)
-    - ForeScout CounterAct
-    - AppLocker
-    - Gigamon
-    - SELinux
-    - auditd
     - snort IDS (2.9.X)
     - Suricata IDS
     - Bro IDS
+    - McAfee Network Security Platform
+    - Cisco FirePOWER IPS (SourceFire)
+    - RSA Security Analytics (Netwitness)
+    - Carbon Black Protection (Bit9 Parity)
+    - ForeScout CounterAct
+    - AppLocker
+    - SELinux
+    - auditd
   DF-IR:
     - Volatility Framework
     - plaso
@@ -371,19 +368,23 @@ skills:
     - Amazon KMS
   Config Automation:
     - packer
-    - chef
     - ansible
+    - kickstart
+    - chef
+    - Amazon CloudFormation
+    - AWS::CloudFormation::Init
+    - cloud-init
     - consul
     - consul-template
     - ActiveDirectory Group Policy
     - cfengine
-    - kickstart
     - puppet
-    - Amazon CloudFormation
   Workflow, Testing:
     - JIRA
-    - SharePoint
-    - Confluence
+    - AWS CodeCommit
+    - AWS CodeBuild
+    - AWS CodePipeline
+    - GitHub Enterprise
     - HipChat
     - HuBot
     - Lita
@@ -401,13 +402,16 @@ skills:
     - rubocop
     - capybara
     - gauntlt
-    - Amazon CodeCommit
   Data Repositories:
     - MySQL/MariaDB
     - PostgreSQL
-    - Cassandra
+    - AWS DynamoDB
+    - AWS RedShift
+    - AWS RDS
+    - AWS ElasticSearch
     - ElasticSearch
     - InfluxDB
+    - Cassandra
     - OSISoft PI System
     - Apache ZooKeeper
     - Oracle 11-12
@@ -421,37 +425,37 @@ skills:
     - OpenLDAP
     - redis
     - memcached
-    - Amazon DynamoDB
-    - Amazon RedShift
-    - Amazon RDS
-    - Amazon ElasticSearch
   Data Pipeline, Processing:
+    - logstash
     - Apache Kafka
     - Apache Spark
     - Apache QPID
+    - AWS SQS
+    - AWS Lambda
+    - AWS Kinesis
     - RabbitMQ
-    - logstash
     - Pentaho Data Integration
-    - dap
     - avro
     - parquet
     - ZeroMQ
-    - Amazon SQS
-    - Amazon Lambda
     - Apache Tika
   Monitoring:
     - Telegraf
+    - DataDog
     - Kapacitor
+    - Sensu
     - Zabbix
     - Nagios
-    - DataDog
+    - rsyslog
+    - AWS CloudTrail
+    - AWS CloudWatch Logs
+    - AWS CloudWatch Events
+    - AWS CloudWatch Metrics
     - CollectD
-    - DiamonD
     - StatsD
     - Graphite
     - jolokia
     - jmxtrans
-    - rsyslog
     - syslog-ng
     - CEF
     - Splunk
@@ -460,8 +464,6 @@ skills:
     - WBEM
     - WMI
     - WQL
-    - Amazon CloudTrail
-    - Amazon CloudWatch
   Web:
     - Apache HTTPD
     - nginx
@@ -477,13 +479,15 @@ skills:
     - F5 LTM
     - ICAP
   Virtualization:
+    - Vagrant
     - Docker
     - QEMU
     - KVM
+    - libvirtd
+    - AWS EC2
+    - AWS ECS
+    - AWS AMI creation
     - OpenStack
-    - Vagrant
-    - Amazon EC2
-    - Amazon AMI creation
     - Google GCE
     - VMWare ESX
     - VMWare Workstation
@@ -528,7 +532,7 @@ skills:
     - NIST CyberSecurity Framework
     - PCI DSS
   Operating Systems:
-    - Linux (CentOS, RHEL, Ubuntu, Debian)
+    - Linux (CentOS, RHEL, Ubuntu, Debian, AMZN1/AMZN2)
     - Windows Server 2008/2012
     - macOS
     - OpenBSD
@@ -542,7 +546,8 @@ skills:
   Network:
     - Cisco IOS
     - Arista EOS
-    - openvswitch
+    - Gigamon
+    - openvswitch (OVS)
     - BPF/eBPF
     - ISC BIND
     - ISC DHCPD
@@ -550,8 +555,8 @@ skills:
     - Ubiquiti UniFi
     - Ubiquiti EdgeOS
     - collins IPAM/DDI
-    - Amazon Route53
-    - Amazon VPC
+    - AWS Route53
+    - AWS VPC
     - InfoBlox DDI
     - wireshark
     - net-snmp
@@ -559,6 +564,10 @@ skills:
     - softflowd
     - Guacamole
   Storage:
+    - AWS EFS
+    - AWS EBS
+    - AWS S3
+    - minio
     - lvm
     - multipathd
     - mdraid
@@ -568,9 +577,6 @@ skills:
     - Ganesha NFS
     - ceph
     - OpenStack Swift
-    - minio
-    - Amazon S3
-    - Amazon EFS
     - Hadoop HDFS
 education:
   - institution: University of Texas at Austin LBJ School of Public Affairs
