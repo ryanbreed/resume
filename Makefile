@@ -1,6 +1,6 @@
 resumes = resume.pdf resume.html resume.docx resume.tex resume.md README.md
 covers = cover-*.md cover-*.pdf cover-*.docx cover-*.html
-resume_source = -f gfm resume.md
+resume_source = -f markdown_github resume.md
 flavors = sre security architect data shotgun
 
 ifndef DATAFILE
@@ -16,6 +16,11 @@ endif
 ifndef FLAVOR
 FLAVOR=shotgun
 export FLAVOR
+endif
+
+ifndef RENDER_DATE
+	RENDER_DATE=$(( date +%Y/%m/%d))
+	export RENDER_DATE
 endif
 
 resume : $(resumes)
@@ -42,7 +47,7 @@ resume.pdf : resume.md
 resume.html : resume.md
 	pandoc $(resume_source) \
 	  --template=templates/resume-template.html5 \
-		--metadata="title:Ryan Breed - $(( date +%m/%d/%Y ))" \
+		--metadata="title:FIXME" \
 		-t html5 -s -o resume.html
 
 resume.docx : resume.md
@@ -64,11 +69,11 @@ cover-%.md : templates
 	JOB_FLAVOR=$* erubis -f $(DATAFILE) templates/cover-template.md.erb > $@
 
 cover-%.pdf : cover-%.md
-	pandoc -f gfm $< \
+	pandoc -f markdown_github $< \
 	--template=templates/cover-template.latex \
 	-o $@
 
 cover-%.docx : cover-%.md
-	pandoc -f gfm $< \
+	pandoc -f markdown_github $< \
 		--reference-doc=templates/resume-template.docx \
 		-t docx -o $@
