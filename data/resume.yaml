@@ -586,6 +586,9 @@ education:
     program: Bachelor of Science in Molecular Genetics
     date: '1997'
 certifications:
+  - institution: Confluent, Inc.
+    certification: Completion of Operations Training for Apache Kafka
+    date: '2018'
   - institution: Mercedes AMG Driving Academy
     certification: Completion of Advanced Training
     date: '2015'
