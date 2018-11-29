@@ -1,6 +1,6 @@
 resumes = resume.pdf resume.html resume.docx resume.tex resume.md README.md
 covers = cover-*.md cover-*.pdf cover-*.docx cover-*.html
-resume_source = -f markdown_github resume.md
+resume_source = -f gfm resume.md
 flavors = sre security architect data shotgun
 
 ifndef DATAFILE
@@ -35,7 +35,7 @@ clean :
 	rm -f $(resumes) $(covers)
 
 resume.md : templates $(DATAFILE)
-	erubis -f $(DATAFILE) templates/resume-template.md.erb > resume.md
+	bundle exec erubis -f $(DATAFILE) templates/resume-template.md.erb > resume.md
 
 resume.pdf : resume.md
 	pandoc $(resume_source) \
@@ -61,19 +61,19 @@ resume.tex: resume.md
 	  -s -t latex -o resume.tex
 
 README.md : templates
-	FLAVOR=shotgun erubis -f $(DATAFILE) templates/resume-template.md.erb > README.md
+	FLAVOR=shotgun bundle exec erubis -f $(DATAFILE) templates/resume-template.md.erb > README.md
 
 covers: cover-data.docx cover-sre.docx cover-security.docx
 
 cover-%.md : templates
-	JOB_FLAVOR=$* erubis -f $(DATAFILE) templates/cover-template.md.erb > $@
+	JOB_FLAVOR=$* bundle exec erubis -f $(DATAFILE) templates/cover-template.md.erb > $@
 
 cover-%.pdf : cover-%.md
-	pandoc -f markdown_github $< \
+	pandoc -f gfm $< \
 	--template=templates/cover-template.latex \
 	-o $@
 
 cover-%.docx : cover-%.md
-	pandoc -f markdown_github $< \
+	pandoc -f gfm $< \
 		--reference-doc=templates/resume-template.docx \
 		-t docx -o $@
