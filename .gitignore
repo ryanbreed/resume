@@ -5,6 +5,9 @@ resume_Ryan_Breed_*.html
 
 **/.*.sw[a-z]
 
+.bundle/ 
+vendor/ 
+
 *.aux
 *.lof
 *.log

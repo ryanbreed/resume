@@ -1,21 +1,39 @@
 # Ryan Breed
 | Contact | Info |
 |---------|------|
-| email | [`recruit@breed.org`](mailto:recruit@REMOVETHIS.breed.org) |
+| email | [`recruit@breed.org`](mailto:recruit@REM0VETH1S.breed.org) |
 | voice | [`+1 (661)RBR-EED1`](tel:+16617273331) |
 | github | [`github.com/ryanbreed`](https://github.com/ryanbreed) |
 | linkedin | [`linkedin.com/in/ryanbreed`](https://www.linkedin.com/in/ryanbreed) |
 
 ## Overview
-Seasoned professional with 20 years of deep technical experience in architecture, monitoring, incident response, application security, and penetration testing. I have a keen interest in practical applications of large-scale data analysis, automation, and organizational resilience. I also have practical experience developing cooperative intelligence sharing partnerships with both public and private sector entities.
+Seasoned professional with 22 years of deep technical experience in architecture, monitoring, incident response, application security, and penetration testing. I have a keen interest in practical applications of large-scale data analysis, automation, and organizational resilience. I also have practical experience developing cooperative intelligence sharing partnerships with both public and private sector entities.
 
 ## Education
 * University of Texas at Austin LBJ School of Public Affairs - Global Policy Studies (2012–2014)
 * University of Rochester - Bachelor of Science in Molecular Genetics (1997)
 
 ## Experience
+### Director of Security Engineering
+##### *ThetaPoint, inc.* (May 2017 - _Present_)
+* Develop ThetaPoint Security Reference Architecture for Security Operations Centers
+* Performed research and development on techniques for processing and enriching security events, alerting on suspicious activity across network and endpoint sensors, and building robust automated systems to support operator workflows.
+* Build bare-metal and cloud lab environments to support proof-of-concept evaluation for ingest, utility, workflow, and model technologies within the Reference Architecture.
+* Capture deployment tasks in an automated build chain using Ansible, Packer, and CloudFormation for technologies under evaluation.
+* Engage public feedback on Reference Architecture through speaking engagements and participation in community discussions.
+* Evaluate performance of content published through blog using Google Analytics and social media metrics.
+* Analyze SIEM, SIP, and SOAR software solutions for strengths and weaknesses in data processing, operations support, analytics, and governance.
+* Build analytical use cases and workflow support to demonstrate platform effectiveness in Reference Architecture
+
+##### Accomplishments
+* Published blog series on Reference Architecture: [`theta-point.com/blog/security-reference-architecture-framework-overview`](https://www.theta-point.com/blog/security-reference-architecture-framework-overview)
+* Gave presentation on fundamentals of Apache Kafka and its uses in security event processing to Austin DFIR meetup.
+* Presented overview on hardware security keys, OATH, HSMs, and PIV to Austin DFIR and OWASP (Jan 2019)
+* Attended Confluent Operator training for deploying and managing kafka on the Confluent Platform.
+* Attended "Attacking Windows Environments with Powershell" training at LASCON 2018
+
 ### Principal Security Content Engineer
-##### *Alert Logic, inc.* (Feb 2017 - _Present_)
+##### *Alert Logic, inc.* (Feb 2017 - May 2017)
 * Process intelligence and research reports on emerging threats and implement detection content across product platforms
 * Triage incoming Threat Intelligence reports to ensure quality and accuracy for content team
 * Work with Product and Engineering teams to specify new features for product platforms to enhance detection capabilities and ensure operational stability
@@ -154,6 +172,7 @@ Seasoned professional with 20 years of deep technical experience in architecture
 * Idaho National Laboratory NSTB Advanced SCADA Security Training - Team Captain and Winning Team (Nov 2008)
 
 ## Certifications
+* Completion of Operations Training for Apache Kafka - Confluent, Inc. (2018)
 * Completion of Advanced Training - Mercedes AMG Driving Academy (2015)
 * Leadership Skills for Managers Certificate Program - University of Texas at Austin Professional Development Center (2011)
 * Advanced SCADA Security - Idaho National Laboratory National SCADA Test Bed (2008)
@@ -168,52 +187,52 @@ Seasoned professional with 20 years of deep technical experience in architecture
 
 ## Skills
 - **Languages (descending by mastery)**
-  Ruby, Shell (Bash), Python, R, SQL, PowerShell, XPath/XSLT, JMESPath, Go, C, x86 asm, cBPF asm, eBPF C/asm, Scala, JavaScript, Cypher, SPARQL, VBScript, lua
+  Ruby, Shell (Bash), Python, R, SQL, PowerShell, XPath/XSLT, JMESPath, Go, C, x86 asm, eBPF C/asm, Scala, JavaScript, Cypher, VBScript, lua
 
 - **Security**
-  ArcSight ESM, ArcSight Logger, ArcSight Connectors, ArcSight Management Center, snort IDS (2.9.X), Suricata IDS, Bro IDS, McAfee Network Security Platform, Cisco FirePOWER IPS (SourceFire), RSA Security Analytics (Netwitness), Carbon Black Protection (Bit9 Parity), ForeScout CounterAct, AppLocker, SELinux, auditd
+  ArcSight ESM/Logger/MC/Connector Framework, snort IDS (2.9.X), Suricata IDS, Zeek (Bro IDS), McAfee Network Security Platform, Cisco FirePOWER IPS (SourceFire), RSA Security Analytics (Netwitness), Carbon Black Protection (Bit9 Parity), ForeScout CounterAct, AppLocker, SELinux, auditd
 
 - **DF-IR**
-  Volatility Framework, plaso, log2timeline, sleuthkit, foremost, Memoryze, EnCase, F-Response, Carbon Black Response, STIX, CybOx, TAXII, OpenIOC, yara, yextend, MISP, Soltra Edge, CRITS, Viper Framework, Unfetter Analytic
+  Volatility Framework, plaso, log2timeline, sleuthkit, foremost, EnCase, F-Response, Carbon Black Response, STIX 1.2/2.0, TAXII, OpenIOC, yara, MISP, Soltra Edge, CRITS, Unfetter Analytic
 
 - **Reverse Engineering**
-  Cuckoo Sandbox, McAfee ATD (Advanced Threat Detection), Capstone Engine, Unicorn CPU Emulator, KLEE, ViperMonkey VBA Parser, Kaitai Struct, radare2, CFR Java Decompiler, bytecode-viewer, origami pdf
+  Cuckoo Sandbox, McAfee ATD (Advanced Threat Detection), Capstone Engine, ViperMonkey VBA Parser, Kaitai Struct, radare2, CFR Java Decompiler, origami pdf
 
 - **Vulnerability Management**
-  Rapid7 Nexpose, RedSeal, Tenable SecurityCenter, Tenable Nessus, MetaSploit Pro, Burpsuite Pro, PhishMe, OpenSCAP, SCAP, OVAL, NASL, XCCDF, nmap, OWASP ZAP
+  Rapid7 Nexpose, RedSeal, Tenable Nessus/SecurityCenter, MetaSploit Pro, Burpsuite Pro, PhishMe, OpenSCAP, OVAL, NASL, XCCDF, nmap, OWASP ZAP
 
 - **Crypto**
-  HashiCorip Vault, Microsoft Certificate Services, cfssl, OpenSSL, PKCS11, TPM, x509, PKI, Kerberos V5 (MIT/heimdal), Amazon KMS
+  HashiCorip Vault, Microsoft Certificate Services, cfssl, OpenSSL, PKCS11, PIV, OATH (TOTP/HOTP), TPM, X.509, PKI, Kerberos V5 (MIT/heimdal), Amazon KMS
 
 - **Config Automation**
   packer, ansible, kickstart, chef, Amazon CloudFormation, AWS::CloudFormation::Init, cloud-init, consul, consul-template, ActiveDirectory Group Policy, cfengine, puppet
 
 - **Workflow, Testing**
-  JIRA, AWS CodeCommit, AWS CodeBuild, AWS CodePipeline, GitHub Enterprise, HipChat, HuBot, Lita, rundeck, Bitbucket, git, jenkins, TravisCI, Bamboo, selenium, cucumber, rspec, serverspec, brakeman, rubocop, capybara, gauntlt
+  JIRA, AWS Code*, GitHub Enterprise, HipChat, Lita, rundeck, Bitbucket, git, jenkins, TravisCI, Bamboo, selenium, cucumber, rspec, serverspec, brakeman, rubocop, gauntlt
 
 - **Data Repositories**
-  MySQL/MariaDB, PostgreSQL, AWS DynamoDB, AWS RedShift, AWS RDS, AWS ElasticSearch, ElasticSearch, InfluxDB, Cassandra, OSISoft PI System, Apache ZooKeeper, Oracle 11-12, MongoDB, CouchDB, HBase, Neo4j, Titan, Apache Jena, ActiveDirectory, OpenLDAP, redis, memcached
+  MySQL/MariaDB, PostgreSQL, AWS DynamoDB/RedShift/RDS, ElasticSearch, InfluxDB, Cassandra, OSISoft PI System, Apache ZooKeeper, Oracle 8-12, MongoDB, Neo4j, Apache Jena, ActiveDirectory, OpenLDAP, redis
 
 - **Data Pipeline, Processing**
-  logstash, Apache Kafka, Apache Spark, Apache QPID, AWS SQS, AWS Lambda, AWS Kinesis, RabbitMQ, Pentaho Data Integration, avro, parquet, ZeroMQ, Apache Tika
+  logstash, Apache Kafka, Apache Spark, OpenFAAS, AWS SQS/Kinesis/Lambda, avro, parquet, ZeroMQ, Apache Tika
 
 - **Monitoring**
-  Telegraf, DataDog, Kapacitor, Sensu, Zabbix, Nagios, rsyslog, AWS CloudTrail, AWS CloudWatch Logs, AWS CloudWatch Events, AWS CloudWatch Metrics, CollectD, StatsD, Graphite, jolokia, jmxtrans, syslog-ng, CEF, Splunk, Graylog2, Filebeats, WBEM, WMI, WQL
+  Telegraf, DataDog, Nagios, Prometheus, Zabbix, Sensu, rsyslog, AWS CloudTrail/CloudWatch, CollectD, StatsD, Graphite, jolokia, jmxtrans, syslog-ng, CEF, Splunk, Graylog2, Filebeats, WBEM, WMI, WQL
 
 - **Web**
-  Apache HTTPD, nginx, varnish cache, squid, haproxy, traefik, mod_security, OWASP CRS3 (ModSecurity Core Rule Set), mod_proxy, mod_rewrite, mod_ssl, F5 LTM, ICAP
+  Apache HTTPD, nginx, squid, haproxy, traefik, mod_security, OWASP CRS3 (ModSecurity Core Rule Set), F5 LTM, ICAP
 
 - **Virtualization**
-  Vagrant, Docker, QEMU, KVM, libvirtd, AWS EC2, AWS ECS, AWS AMI creation, OpenStack, Google GCE, VMWare ESX, VMWare Workstation, Virtualbox
+  Vagrant, Docker, QEMU, KVM, libvirtd, AWS EC2/ECS, Google GCE, VMWare ESX
 
 - **Scheduling, Clustering**
-  YARNv2, kubernetes, Apache Mesos, Apache Spark, swarm, keepalived, lvs, sidekiq, celery
+  YARNv2, kubernetes, Apache Mesos, Apache Spark, Docker Swarm, sidekiq, celery
 
 - **Analysis, Visualization**
-  Jupyter, Rstudio, Apache Spark, Tableau, Pig, pandas, shiny, grafana, kibana, d3.js
+  Jupyter, Rstudio, Apache Spark, Tableau, pandas, shiny, grafana, kibana, d3.js
 
 - **Machine Learning**
-  scikit-learn, TensorFlow, weka, vowlpal wabbit, MALLET, SparkML (1.2)
+  scikit-learn, TensorFlow, weka
 
 - **NLP**
   Stanford core-NLP, spaCy, DeepDive, word2vec
@@ -222,11 +241,11 @@ Seasoned professional with 20 years of deep technical experience in architecture
   NERC CIP, SSAE16, NIST SP800-53, NIST CyberSecurity Framework, PCI DSS
 
 - **Operating Systems**
-  Linux (CentOS, RHEL, Ubuntu, Debian, AMZN1/AMZN2), Windows Server 2008/2012, macOS, OpenBSD, FreeBSD, NetBSD, AIX 6.X/7.X, HP/UX 11.X, Tru64 (DEC UNIX), Solaris 2.4-10, SunOS 4.1
+  Linux (CentOS, RHEL, Ubuntu, Debian, AMZN1/AMZN2), Windows Server and Desktop OS, macOS, Open/Free/NetBSD, AIX 6.X/7.X, HP/UX 11.X, Tru64 (DEC UNIX), Solaris 2.4-10, SunOS 4.1
 
 - **Network**
-  Cisco IOS, Arista EOS, Gigamon, openvswitch (OVS), BPF/eBPF, ISC BIND, ISC DHCPD, ISC KEA, Ubiquiti UniFi, Ubiquiti EdgeOS, collins IPAM/DDI, AWS Route53, AWS VPC, InfoBlox DDI, wireshark, net-snmp, pmacct, softflowd, Guacamole
+  Cisco IOS, Gigamon, openvswitch (OVS), BPF/eBPF, ISC BIND/DHCPD, collins IPAM/DDI, AWS VPC/Route53, InfoBlox DDI, wireshark, net-snmp, pmacct, softflowd, Guacamole, keepalived/lvs
 
 - **Storage**
-  AWS EFS, AWS EBS, AWS S3, minio, lvm, multipathd, mdraid, xfs, Samba, nfsd, Ganesha NFS, ceph, OpenStack Swift, Hadoop HDFS
+  AWS EFS/EBS/S3, minio, lvm, multipathd, mdraid, xfs, Samba, nfsd, ceph, OpenStack Swift, Hadoop HDFS
 

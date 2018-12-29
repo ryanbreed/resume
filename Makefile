@@ -18,11 +18,6 @@ FLAVOR=shotgun
 export FLAVOR
 endif
 
-ifndef RENDER_DATE
-	RENDER_DATE=$(( date +%Y/%m/%d))
-	export RENDER_DATE
-endif
-
 resume : $(resumes)
 
 templates/resume-template.docx :
@@ -44,10 +39,15 @@ resume.pdf : resume.md
 	--variable=subparagraph \
 	-o resume.pdf
 
+
+title = title:Ryan Breed
+title += $(shell date +%Y/%m/%d)
+
+
 resume.html : resume.md
 	pandoc $(resume_source) \
 	  --template=templates/resume-template.html5 \
-		--metadata="title:FIXME" \
+		--metadata='$(title)' \
 		-t html5 -s -o resume.html
 
 resume.docx : resume.md
