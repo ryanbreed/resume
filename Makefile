@@ -77,3 +77,8 @@ cover-%.docx : cover-%.md
 	pandoc -f gfm $< \
 		--reference-doc=templates/resume-template.docx \
 		-t docx -o $@
+
+.PHONY: clean setup
+
+setup:
+	bundle install --path=vendor/bundle

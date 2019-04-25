@@ -74,10 +74,3 @@ end
 <% @courses.each do |item| %>
 * <%= item["institution"] -%> - <%= item["title"] -%> (<%= item["number"] -%>)
 <% end %>
-
-## Skills
-<% @skills.each do |cat, skilz| %>
-- **<%= cat -%>**
-  <%= skilz.join(', ') %>
-
-<% end %>
