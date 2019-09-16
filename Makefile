@@ -28,6 +28,7 @@ templates : templates/resume-template.docx
 clean :
 	make -C templates clean
 	rm -f $(resumes) $(covers)
+	osascript -e 'tell application "Preview" to (close every window whose name contains "resume")'
 
 resume.md : templates $(DATAFILE)
 	bundle exec erubis -f $(DATAFILE) templates/resume-template.md.erb > resume.md

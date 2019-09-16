@@ -61,8 +61,8 @@ end
 
 <% end %>
 ## Awards
-<% @awards.each do |item| %>
-* <%= item["institution"] -%> - <%= item["award"] -%> (<%= DateTime.parse(item["date"]).strftime(YM_FORMAT) %>)
+<% @awards.group_by {|a| a["institution"]}.each do |inst,items| %>
+* <%= inst -%> - <%= items.map {|i| format("%s (%s)", i["award"], DateTime.parse(i["date"]).strftime(YM_FORMAT))}.join(", ") %>
 <% end %>
 
 ## Certifications
@@ -71,6 +71,6 @@ end
 <% end %>
 
 ## Courses
-<% @courses.each do |item| %>
-* <%= item["institution"] -%> - <%= item["title"] -%> (<%= item["number"] -%>)
+<% @courses.group_by {|c| c.fetch("institution","")}.each do |inst,items| %>
+* <%= inst -%> - <%= items.map {|i| format("%s (%s)", i["title"], i["number"]) }.join (", ") %>
 <% end %>
