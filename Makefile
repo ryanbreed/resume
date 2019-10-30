@@ -1,6 +1,8 @@
 resumes = resume.pdf resume.html resume.docx resume.tex resume.md README.md
+ksas = ksa.pdf ksa.html ksa.docx ksa.tex ksa.md
 covers = cover-*.md cover-*.pdf cover-*.docx cover-*.html
 resume_source = -f gfm resume.md
+ksa_source = -f gfm ksa.md
 flavors = sre security architect data shotgun
 
 ifndef DATAFILE
@@ -27,11 +29,16 @@ templates : templates/resume-template.docx
 
 clean :
 	make -C templates clean
-	rm -f $(resumes) $(covers)
+	rm -f $(resumes) $(covers) $(ksas)
 	osascript -e 'tell application "Preview" to (close every window whose name contains "resume")'
+	osascript -e 'tell application "Preview" to (close every window whose name contains "ksa")'
 
 resume.md : templates $(DATAFILE)
 	bundle exec erubis -f $(DATAFILE) templates/resume-template.md.erb > resume.md
+
+ksa.md : templates $(DATAFILE)
+	bundle exec erubis -f $(DATAFILE) templates/ksa-template.md.erb > ksa.md
+
 
 resume.pdf : resume.md
 	pandoc $(resume_source) \
@@ -40,6 +47,12 @@ resume.pdf : resume.md
 	--variable=subparagraph \
 	-o resume.pdf
 
+ksa.pdf : ksa.md
+	pandoc $(ksa_source) \
+	--template=templates/resume-template.latex \
+	--variable=indent \
+	--variable=subparagraph \
+	-o ksa.pdf
 
 title = title:Ryan Breed
 title += $(shell date +%Y/%m/%d)

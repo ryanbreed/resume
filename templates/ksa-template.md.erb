@@ -1,0 +1,44 @@
+<%
+require 'date'
+YM_FORMAT='%b %Y'
+@flavor=ENV['FLAVOR']
+def date_range(position)
+  s_dt = DateTime.parse(position['d_start'])
+  s_fmt = s_dt.strftime(YM_FORMAT)
+  e_fmt = if position.key?('d_end')
+    e_dt = DateTime.parse(position['d_end'])
+    e_dt.strftime(YM_FORMAT)
+  else
+    '_Present_'
+  end
+
+  format("%s - %s", s_fmt, e_fmt)
+end
+
+def accomplishments(position, flavor)
+  if position.key?("accomplishments") && (!position["accomplishments"].empty?)
+  position["accomplishments"].select {|item| item["flavors"].nil? || item["flavors"].include?(flavor)}
+                             .map    {|item| item["text"] }
+  else
+    []
+  end
+end
+
+def responsibilities(position, flavor)
+  position["responsibilities"].select {|item| item["flavors"].nil? || item["flavors"].include?(flavor)}
+                              .map    {|item| item["text"] }
+end
+%>
+# Ryan Breed
+| Contact | Info |
+|---------|------|
+<% @contact.each do |con| %>
+| <%= con["medium"] %> | [`<%= con["display"] -%>`](<%= con["link"] -%>) |
+<% end %>
+
+## Knowledge, Skills, Abilities
+<% @skills.each do |cat, skilz| %>
+- **<%= cat -%>:**
+  <%= skilz.join(', ') %>
+
+<% end %>

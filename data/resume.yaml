@@ -49,15 +49,6 @@ experience:
       - text: Presented "Advanced Snort Authoring and Detection Internals" workshop to Cloud Austin meetup.
       - text: Developed containerized plaform to test detection content across Snort and Suricata.
 
-  - title: CTO, Director of Mayhem
-    d_start: 2013/05
-    institution: Cascade Failure, inc.
-    responsibilities:
-      - text: Develop services products for consulting engagements in Critical Infrastructure sectors
-      - text: Conduct and present original research in Complex Systems Failures
-    accomplishments:
-      - text: Participate in ODNI-sponsored DHS Public-Private Analytic Exchange Program
-
   - title: Principal, Critical Infrastructure Security
     d_start: 2012/11
     d_end: 2016/10
@@ -143,9 +134,10 @@ skills:
     - PowerShell
     - Go
     - Rust
-    - C
     - Scala
+    - C
   Security:
+    - SIEM (ArcSight, Splunk)
     - ArcSight ESM/Logger/MC/Connector Framework
     - snort IDS (2.9.X)
     - Suricata IDS
@@ -153,18 +145,30 @@ skills:
     - McAfee Network Security Platform
     - RSA Security Analytics (Netwitness)
     - Carbon Black Protection (Bit9 Parity)
+    - Cisco FirePOWER IPS (SourceFire)
+    - ForeScout CounterAct
+    - FreeIPA
+    - MS Active Directory
+    - SELinux
+    - auditd
   DF-IR:
     - Volatility Framework
-    - plaso
+    - plaso/log2timeline
+    - foremost
+    - sleuthkit
     - EnCase
     - F-Response
+    - OSQuery (macOS, Windows, linux)
     - Carbon Black Response
+    - Kaitai Struct
+    - Ghidra
+  Threat Intelligence:
+    - STIX
+    - TAXII
     - yara
     - MISP
     - Sandboxing (ATD, Cuckoo, custom+qemu)
     - Capstone Engine
-    - Kaitai Struct
-    - Ghidra
   Vulnerability Management:
     - Rapid7 Nexpose
     - RedSeal
@@ -178,14 +182,18 @@ skills:
   Crypto:
     - HashiCorip Vault
     - Microsoft Certificate Services
+    - Dogtag CA (FreeIPA)
+    - Certmonger
+    - Amazon KMS
     - OpenSSL
     - PKCS11
+    - TPM
+    - X.509
+    - PKI
     - PIV
     - OATH (TOTP/HOTP)
     - Kerberos V5 (MIT/heimdal)
-    - Amazon KMS
   Config Automation:
-    - packer
     - ansible
     - AWS CloudFormation
     - kickstart
@@ -208,27 +216,39 @@ skills:
     - MySQL/MariaDB
     - AWS DynamoDB/RedShift/RDS
     - ElasticSearch
+    - Redis
+    - Apache Zookeeper
+    - Consul
     - InfluxDB
     - Cassandra
     - Neo4j
-  Data Pipeline, Processing:
+  Data Pipelines, Processing:
     - logstash
     - Apache Kafka
-    - Apache Spark
+    - Apache Nifi
+    - Apache Tika
     - OpenFAAS
     - AWS SQS/Kinesis/Lambda
-    - Apache Tika
+    - Apache Spark
   Monitoring:
-    - rsyslog
     - Splunk
+    - Elastic Beats
+    - rsyslog
+    - vector.dev
     - Elastic Beats
     - Telegraf
     - Prometheus
     - AWS CloudTrail/CloudWatch
     - jmx/jolokia
+    - WinRM/WMI/WBEM
   Virtualization:
+    - packer
+    - terraform
+    - Vagrant
     - QEMU
     - KVM
+    - libvirtd
+    - Docker
     - AWS EC2/ECS
     - Google GCE
     - VMWare ESX
@@ -263,6 +283,20 @@ skills:
     - ISC BIND/DHCPD
     - AWS VPC/Route53
     - keepalived
+    - traefik
+    - gobetween
+  Storage:
+    - AWS EFS/EBS/S3
+    - minio
+    - lvm
+    - multipathd
+    - mdraid
+    - xfs
+    - Samba
+    - nfsd
+    - ceph
+    - OpenStack Swift
+    - Hadoop HDFS
 education:
   - institution: University of Texas at Austin LBJ School of Public Affairs
     program: Global Policy Studies
