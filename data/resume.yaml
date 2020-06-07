@@ -22,8 +22,19 @@ contact:
     display: linkedin.com/in/ryanbreed
     link: https://www.linkedin.com/in/ryanbreed
 experience:
+  - title: Senior Incident Response Analyst
+    d_start: 2020/01
+    institution: All Clear LLC
+    responsibilities:
+      - text: Triage, investigate, and respond to suspected security incidents according to organizational policy and procedure
+      - text: Develop new alert analytics for threat actor TTPs identified in existing event load
+      - text: Create workflow automation to streamline and simplify triage, investigation, and operator actions
+      - text: Organize existing alert content into forward-maintainable architecture with CI/CD tooling for testing and deployment
+    accomplishments:
+      - text: Developed and implemented modular content abstractions for automated alerts running in Splunk Cloud ESS
   - title: Principal Security Operations Researcher
     d_start: 2017/05
+    d_end: 2020/01
     institution: ThetaPoint, inc.
     responsibilities:
       - text: Develop ThetaPoint Security Reference Architecture for Security Operations Centers
