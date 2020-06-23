@@ -3,10 +3,14 @@ resume_Ryan_Breed_*.pdf
 resume_Ryan_Breed_*.docx
 resume_Ryan_Breed_*.html
 
+resume-Ryan_Breed-*.pdf
+resume-Ryan_Breed-*.docx
+resume-Ryan_Breed-*.html
+
 **/.*.sw[a-z]
 
-.bundle/ 
-vendor/ 
+.bundle/
+vendor/
 
 *.aux
 *.lof
