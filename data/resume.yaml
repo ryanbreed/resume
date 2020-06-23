@@ -1,4 +1,9 @@
-overview: Seasoned professional with 22 years of deep technical experience in red/blue security consulting and corporate operations. I have a keen interest in practical applications of large-scale data analysis, automation, and organizational resilience.
+overview: |
+  Seasoned professional with 23 years of deep technical experience with red/blue
+  security operations and consulting. I have a track record for developing
+  excellence in security operations organizations, a knack for researching novel
+  security analytic techniques, and a penchant for building automated workflow
+  support that can increase both tempo and accuracy.
 default_flavors: [shotgun,secops,architect]
 cover:
   - flavor: secops
