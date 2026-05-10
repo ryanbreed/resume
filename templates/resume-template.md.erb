@@ -1,7 +1,7 @@
 <%
 require 'date'
 YM_FORMAT='%b %Y'
-
+@flavor=ENV['FLAVOR']
 def date_range(position)
   s_dt = DateTime.parse(position['d_start'])
   s_fmt = s_dt.strftime(YM_FORMAT)
@@ -11,21 +11,21 @@ def date_range(position)
   else
     '_Present_'
   end
-  
+
   format("%s - %s", s_fmt, e_fmt)
 end
 
-def accomplishments(position, flavor=ENV['FLAVOR'])
+def accomplishments(position, flavor)
   if position.key?("accomplishments") && (!position["accomplishments"].empty?)
-  position["accomplishments"].select {|item| item["flavors"].include?(flavor)}
+  position["accomplishments"].select {|item| item["flavors"].nil? || item["flavors"].include?(flavor)}
                              .map    {|item| item["text"] }
   else
     []
   end
 end
 
-def responsibilities(position, flavor=ENV['FLAVOR'])
-  position["responsibilities"].select {|item| item["flavors"].include?(flavor)}
+def responsibilities(position, flavor)
+  position["responsibilities"].select {|item| item["flavors"].nil? || item["flavors"].include?(flavor)}
                               .map    {|item| item["text"] }
 end
 %>
@@ -48,21 +48,21 @@ end
 <% @experience.each do |pos| %>
 ### <%= pos["title"] %>
 ##### *<%= pos["institution"] %>* (<%= date_range(pos) -%>)
-<% responsibilities(pos, ENV['FLAVOR']).each do |text| %>
+<% responsibilities(pos, @flavor).each do |text| %>
 * <%= text %>
 <% end %>
 
-<% unless accomplishments(pos,ENV['FLAVOR']).empty? %>
+<% unless accomplishments(pos,@flavor).empty? %>
 ##### Accomplishments
-<% accomplishments(pos, ENV['FLAVOR']).each do |text| %>
+<% accomplishments(pos, @flavor).each do |text| %>
 * <%= text %>
 <% end %>
 <% end %>
 
 <% end %>
 ## Awards
-<% @awards.each do |item| %>
-* <%= item["institution"] -%> - <%= item["award"] -%> (<%= DateTime.parse(item["date"]).strftime(YM_FORMAT) %>)
+<% @awards.group_by {|a| a["institution"]}.each do |inst,items| %>
+* <%= inst -%> - <%= items.map {|i| format("%s (%s)", i["award"], DateTime.parse(i["date"]).strftime(YM_FORMAT))}.join(", ") %>
 <% end %>
 
 ## Certifications
@@ -71,13 +71,6 @@ end
 <% end %>
 
 ## Courses
-<% @courses.each do |item| %>
-* <%= item["institution"] -%> - <%= item["title"] -%> (<%= item["number"] -%>)
-<% end %>
-
-## Skills
-<% @skills.each do |cat, skilz| %>
-- **<%= cat -%>**
-  <%= skilz.join(', ') %>
-
+<% @courses.group_by {|c| c.fetch("institution","")}.each do |inst,items| %>
+* <%= inst -%> - <%= items.map {|i| format("%s (%s)", i["title"], i["number"]) }.join (", ") %>
 <% end %>
