@@ -7,20 +7,32 @@
 | linkedin | [`linkedin.com/in/ryanbreed`](https://www.linkedin.com/in/ryanbreed) |
 
 ## Overview
-Seasoned professional with 23 years of deep technical experience with red/blue
+Seasoned professional with 29 years of deep technical experience with red/blue
 security operations and consulting. I have a track record for developing
-excellence in security operations organizations, a knack for researching novel
-security analytic techniques, and a penchant for building automated workflow
-support that can increase both tempo and accuracy.
+cohesive security operations teams, a knack for identifying analytical leverage 
+in high-intensity technical environments and translating that into high-quality 
+security analytics, and a penchant for automation that increases rigor and 
+expands capabilities.
 
 
 ## Education
-* University of Texas at Austin LBJ School of Public Affairs - Global Policy Studies (2012–2014)
+* University of Texas at Austin LBJ School of Public Affairs - Global Policy Studies (incomplete) (2012–2014)
 * University of Rochester - Bachelor of Science in Molecular Genetics (1997)
 
 ## Experience
+### Senior Security Engineer II
+##### *HashiCorp* (May 2021 - _Present_)
+* Implement and manage automated deployments for security data collection and alert content through IaC
+* Handle rotation duties for triage and investigation of security alerts and take Incident Command for security incidents as needed
+* Manage vendor interactions for detection and data platforms, manage contract consumption, and optimize usage
+
+##### Accomplishments
+* Developed multi-cloud security data pipeline across 30 different SaaS vendors and 30,000 cloud accounts in AWS, GCP, and Azure
+* Built Detection-as-Code toolchain to maintain security detection and response content across detection engines in SumoLogic, DataDog, and cloud-native functions
+* Developed agentic skills and repo-specific instructions for making changes to data and detection pipelines
+
 ### Senior Incident Response Analyst
-##### *All Clear LLC* (Jan 2020 - _Present_)
+##### *All Clear LLC* (Jan 2020 - May 2021)
 * Triage, investigate, and respond to suspected security incidents according to organizational policy and procedure
 * Develop new alert analytics for threat actor TTPs identified in existing event load
 * Create workflow automation to streamline and simplify triage, investigation, and operator actions
@@ -122,11 +134,13 @@ support that can increase both tempo and accuracy.
 
 
 ## Awards
+* HashiCorp - Core Values () (Feb 2025)
 * ERCOT - Team Player Award (Mar 2016), Core Value Award for Expertise (Apr 2014), Team Player Award (Apr 2014), Exceptional Performer Award (Jan 2014), Certificate of Recognition: Principal (Dec 2012), Team Player Award (Jul 2011)
 * Mercedes AMG Driving Academy - 1st place Team Autocross (Jun 2015)
 * Idaho National Laboratory NSTB Advanced SCADA Security Training - Team Captain and Winning Team (Nov 2008)
 
 ## Certifications
+* Advanced Search, Administration - SumoLogic (2022)
 * Operator Training for Apache Kafka - Confluent, Inc. (2018)
 * Completion of Advanced Training - Mercedes AMG Driving Academy (2015)
 * Leadership Skills for Managers Certificate Program - University of Texas at Austin Professional Development Center (2011)

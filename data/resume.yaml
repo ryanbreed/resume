@@ -1,9 +1,10 @@
 overview: |
-  Seasoned professional with 23 years of deep technical experience with red/blue
+  Seasoned professional with 29 years of deep technical experience with red/blue
   security operations and consulting. I have a track record for developing
-  excellence in security operations organizations, a knack for researching novel
-  security analytic techniques, and a penchant for building automated workflow
-  support that can increase both tempo and accuracy.
+  cohesive security operations teams, a knack for identifying analytical leverage 
+  in high-intensity technical environments and translating that into high-quality 
+  security analytics, and a penchant for automation that increases rigor and 
+  expands capabilities.
 default_flavors: [shotgun,secops,architect]
 cover:
   - flavor: secops
@@ -27,7 +28,19 @@ contact:
     display: linkedin.com/in/ryanbreed
     link: https://www.linkedin.com/in/ryanbreed
 experience:
+  - title: Senior Security Engineer II
+    d_start: 2021/05
+    institution: HashiCorp
+    responsibilities:
+      - text: Implement and manage automated deployments for security data collection and alert content through IaC 
+      - text: Handle rotation duties for triage and investigation of security alerts and take Incident Command for security incidents as needed
+      - text: Manage vendor interactions for detection and data platforms, manage contract consumption, and optimize usage
+    accomplishments:
+      - text: Developed multi-cloud security data pipeline across 30 different SaaS vendors and 30,000 cloud accounts in AWS, GCP, and Azure
+      - text: Built Detection-as-Code toolchain to maintain security detection and response content across detection engines in SumoLogic, DataDog, and cloud-native functions
+      - text: Developed agentic skills and repo-specific instructions for making changes to data and detection pipelines
   - title: Senior Incident Response Analyst
+    d_end: 2021/05
     d_start: 2020/01
     institution: All Clear LLC
     responsibilities:
@@ -144,138 +157,113 @@ experience:
       - text: Support pre-sales discovery and develop responses to customer solicitations
 skills:
   Languages (descending by mastery):
-    - Ruby
-    - Bash
-    - Python
-    - R
+    - Terraform
     - SQL
+    - Bash
+    - Ruby
+    - Python
     - PowerShell
     - Go
     - Rust
-    - Scala
+    - R
     - C
   Security:
-    - SIEM (ArcSight, Splunk)
-    - ArcSight ESM/Logger/MC/Connector Framework
-    - snort IDS (2.9.X)
-    - Suricata IDS
-    - Zeek (Bro IDS)
-    - McAfee Network Security Platform
-    - RSA Security Analytics (Netwitness)
-    - Carbon Black Protection (Bit9 Parity)
-    - Cisco FirePOWER IPS (SourceFire)
-    - ForeScout CounterAct
-    - FreeIPA
-    - MS Active Directory
+    - SIEM (All of them)
+    - IDS (Snort, Suricata, Zeek)
+    - Cloud (GuardDuty, Sentinel, Security Command Center)
+    - EntraID
     - SELinux
     - auditd
   DF-IR:
-    - Volatility Framework
+    - Crowdstrike Falcon 
+    - OSQuery (oss, fleet, uptycs)
+    - Volatility
     - plaso/log2timeline
-    - foremost
     - sleuthkit
-    - EnCase
-    - F-Response
-    - OSQuery (macOS, Windows, linux)
-    - Carbon Black Response
-    - Kaitai Struct
     - Ghidra
   Threat Intelligence:
-    - STIX
-    - TAXII
+    - STIX/TAXII
     - yara
-    - MISP
-    - Sandboxing (ATD, Cuckoo, custom+qemu)
-    - Capstone Engine
+    - Sandboxing (custom+qemu)
   Vulnerability Management:
-    - Rapid7 Nexpose
-    - RedSeal
-    - Tenable Nessus/SecurityCenter
+    - nuclei
+    - Wiz
+    - Tenable/NASL
     - MetaSploit Pro
     - Burpsuite Pro
-    - OpenSCAP
-    - OVAL
-    - NASL
-    - XCCDF
+    - SCAP (OVAL, XCCDF)
   Crypto:
-    - HashiCorip Vault
+    - HashiCorp Vault
     - Microsoft Certificate Services
-    - Dogtag CA (FreeIPA)
-    - Certmonger
+    - FreeIPA
+    - ACME/LE (lego)
     - Amazon KMS
     - OpenSSL
-    - PKCS11
-    - TPM
-    - X.509
-    - PKI
-    - PIV
+    - SmartCard, TPM, pcscd
+    - PKCS11, PKCS15, PIV
+    - PKI (X.509v3, OCSP)
     - OATH (TOTP/HOTP)
     - Kerberos V5 (MIT/heimdal)
   Config Automation:
+    - Terraform
     - ansible
     - AWS CloudFormation
     - kickstart
     - Group Policy
-    - consul
     - chef
   Workflow, Testing:
     - JIRA
-    - rundeck
+    - GitHub Action
     - git
     - jenkins
     - selenium
-    - rspec
     - serverspec
     - brakeman
+    - rspec
     - rubocop
     - TravisCI
   Data Repositories:
     - PostgreSQL
     - MySQL/MariaDB
     - AWS DynamoDB/RedShift/RDS
+    - Snowflake
     - ElasticSearch
+    - Greptime
     - Redis
-    - Apache Zookeeper
-    - Consul
-    - InfluxDB
-    - Cassandra
+    - Cassandra / AstraDB
     - Neo4j
   Data Pipelines, Processing:
-    - logstash
-    - Apache Kafka
-    - Apache Nifi
-    - Apache Tika
-    - OpenFAAS
-    - AWS SQS/Kinesis/Lambda
-    - Apache Spark
-  Monitoring:
-    - Splunk
-    - Elastic Beats
-    - rsyslog
+    - Confluent Data Platform (kafka, ksqldb, connect)
+    - Apache Pulsar / Astra Streaming
+    - AWS MSK, Azure EventHub
     - vector.dev
-    - Elastic Beats
-    - Telegraf
+    - Apache Nifi, Spark, Flink
+  Monitoring:
+    - vector.dev
+    - otel
+    - rsyslog
     - Prometheus
+    - Telegraf
+    - SumoLogic, Splunk
+    - Azure Monitor
+    - GCP Cloud Logging
     - AWS CloudTrail/CloudWatch
     - jmx/jolokia
     - WinRM/WMI/WBEM
   Virtualization:
-    - packer
-    - terraform
-    - Vagrant
-    - QEMU
-    - KVM
-    - libvirtd
-    - Docker
-    - AWS EC2/ECS
+    - packer, nomad, vagrant
+    - QEMU, KVM, libvirtd
+    - Docker, Podman
+    - AWS EC2
     - Google GCE
-    - VMWare ESX
+    - Azure Compute
   Scheduling, Workload:
     - Apache Spark
     - Docker Swarm
+    - AWS ECS, EKS
+    - kubernetes, openshift
     - sidekiq
     - celery
-    - kubernetes
   Analysis, Visualization:
     - Jupyter
     - Rstudio
@@ -295,34 +283,30 @@ skills:
     - NIST CyberSecurity Framework
     - PCI DSS
   Network:
-    - Gigamon
     - openvswitch (OVS)
     - BPF/eBPF
     - ISC BIND/DHCPD
     - AWS VPC/Route53
     - keepalived
     - traefik
-    - gobetween
   Storage:
+    - lakehouse (Parquet, Iceberg, EMR)
     - AWS EFS/EBS/S3
-    - minio
-    - lvm
-    - multipathd
-    - mdraid
-    - xfs
-    - Samba
-    - nfsd
+    - lvm, multipathd, mdraid, xfs
+    - Samba, nfsd
     - ceph
-    - OpenStack Swift
-    - Hadoop HDFS
+
 education:
   - institution: University of Texas at Austin LBJ School of Public Affairs
-    program: Global Policy Studies
+    program: Global Policy Studies (incomplete)
     date: 2012–2014
   - institution: University of Rochester
     program: Bachelor of Science in Molecular Genetics
     date: '1997'
 certifications:
+  - institution: SumoLogic
+    certification: Advanced Search, Administration
+    date: '2022'
   - institution: Confluent, Inc.
     certification: Operator Training for Apache Kafka
     date: '2018'
@@ -352,6 +336,9 @@ courses:
     title: ArcSight ESM 6.5 Security Administrator and Analyst
     number: HPE-00924200
 awards:
+  - institution: HashiCorp
+    award: Core Values ()
+    date: 2025/02
   - institution: ERCOT
     award: Team Player Award
     date: 2016/03
